@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="81" viewBox="0 0 81 81">
+  <g id="icn_mech_pirate_biome" transform="translate(0.5 0.5)">
+    <g id="Raggruppa_58" data-name="Raggruppa 58">
+      <g id="Raggruppa_57" data-name="Raggruppa 57" transform="translate(15.752 21.011)">
+        <path id="Tracciato_592" data-name="Tracciato 592" d="M40,37.713,50.022,23.667H29.97Z" transform="translate(-15.763 -21.02)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.3"/>
+        <path id="Tracciato_593" data-name="Tracciato 593" d="M31.165,43.611h4.628a45.373,45.373,0,0,0-2.2,9.959,51.464,51.464,0,0,0,.428,5.591s-2.723.24-3.409-6.479S31.165,43.611,31.165,43.611Z" transform="translate(-15.764 -21.028)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+        <path id="Tracciato_594" data-name="Tracciato 594" d="M33.678,56.11h2.116s.444,6.2-.974,10.407a30.033,30.033,0,0,1-2.062,4.644,58.229,58.229,0,0,0,1.332-8.84A34.23,34.23,0,0,0,33.678,56.11Z" transform="translate(-15.765 -21.033)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+        <path id="Tracciato_595" data-name="Tracciato 595" d="M48.833,43.611H44.205a45.374,45.374,0,0,1,2.2,9.959,51.464,51.464,0,0,1-.428,5.591s2.723.24,3.409-6.479S48.833,43.611,48.833,43.611Z" transform="translate(-15.769 -21.028)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+        <path id="Tracciato_596" data-name="Tracciato 596" d="M46.321,56.11H44.2s-.444,6.2.974,10.407a30.033,30.033,0,0,0,2.062,4.644,58.228,58.228,0,0,1-1.332-8.84A34.23,34.23,0,0,1,46.321,56.11Z" transform="translate(-15.769 -21.033)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+        <g id="Raggruppa_55" data-name="Raggruppa 55">
+          <path id="Tracciato_597" data-name="Tracciato 597" d="M21.756,37.352a63.326,63.326,0,0,0,.333,9.19c.949,11,1.666,12.616,1.666,12.616s-4-2.814-6-9.811a48.293,48.293,0,0,1-2-12Z" transform="translate(-15.758 -21.025)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+          <path id="Tracciato_598" data-name="Tracciato 598" d="M21.715,39.6s.012-3.108.226-5.627A67.484,67.484,0,0,1,24.9,21.019l-8.145,5,5.818,3.332" transform="translate(-15.758 -21.019)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.3"/>
+        </g>
+        <g id="Raggruppa_56" data-name="Raggruppa 56" transform="translate(39.325)">
+          <path id="Tracciato_599" data-name="Tracciato 599" d="M58.241,37.352a63.326,63.326,0,0,1-.333,9.19c-.949,11-1.666,12.616-1.666,12.616s4-2.814,6-9.811a48.293,48.293,0,0,0,2-12Z" transform="translate(-55.098 -21.025)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+          <path id="Tracciato_600" data-name="Tracciato 600" d="M58.282,39.6s-.012-3.108-.226-5.627A67.484,67.484,0,0,0,55.1,21.019l8.145,5-5.818,3.332" transform="translate(-55.098 -21.019)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.3"/>
+        </g>
+      </g>
+      <rect id="Rettangolo_18" data-name="Rettangolo 18" width="80" height="80" fill="#fff" stroke="#fff" stroke-width="1" opacity="0"/>
+    </g>
+  </g>
+</svg>

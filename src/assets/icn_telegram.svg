@@ -1,0 +1,7 @@
+<svg id="icn_telegram" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Rettangolo_2041" data-name="Rettangolo 2041" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="80" height="80" stroke="none"/>
+    <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+  </g>
+  <path id="Icon_awesome-telegram-plane" data-name="Icon awesome-telegram-plane" d="M48.341,8.229l-7.316,34.5c-.552,2.435-1.991,3.041-4.037,1.894L25.842,36.41l-5.379,5.173a2.8,2.8,0,0,1-2.24,1.093l.8-11.352L39.684,12.655c.9-.8-.195-1.245-1.4-.444L12.748,28.293l-11-3.441c-2.392-.747-2.435-2.392.5-3.539L45.257,4.745C47.248,4,48.991,5.188,48.341,8.229Z" transform="translate(16.616 13.746)" fill="#fff"/>
+</svg>

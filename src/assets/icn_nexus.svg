@@ -1,0 +1,17 @@
+<svg id="icn_nexus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_1877" data-name="Rettangolo 1877" width="80" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_2328" data-name="Raggruppa 2328" clip-path="url(#clip-path)">
+    <g id="Raggruppa_2327" data-name="Raggruppa 2327" opacity="0">
+      <g id="Raggruppa_2326" data-name="Raggruppa 2326">
+        <g id="Raggruppa_2325" data-name="Raggruppa 2325" clip-path="url(#clip-path)">
+          <rect id="Rettangolo_1875" data-name="Rettangolo 1875" width="80" height="80" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <path id="Tracciato_2539" data-name="Tracciato 2539" d="M62.1,42.519,44.349,56.345A63.287,63.287,0,0,0,45.694,40.5C45.425,31,39.777,10.545,39.777,10.545s.806,33.99.269,36.006a4.905,4.905,0,0,1-2.42,2.911,4.905,4.905,0,0,1-2.42-2.911c-.538-2.016.269-36.006.269-36.006S29.827,31,29.558,40.5A63.318,63.318,0,0,0,30.9,56.345L13.152,42.519a27.236,27.236,0,0,0,0,13.826c1.618,6.144,3.228,8.066,3.228,8.066h.887a74.5,74.5,0,0,1-1.411-7.565c-.306-4,.255-5.11.255-5.11l15.021,9.189,6.493-5.732,6.493,5.732,15.022-9.189s.561,1.109.255,5.11a74.425,74.425,0,0,1-1.412,7.565h.887s1.609-1.922,3.228-8.066a27.224,27.224,0,0,0,0-13.826" transform="translate(2.374 1.522)" fill="#fff"/>
+  </g>
+</svg>

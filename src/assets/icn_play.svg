@@ -1,0 +1,22 @@
+<svg id="icn_play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_2034" data-name="Rettangolo 2034" width="80" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_2665" data-name="Raggruppa 2665" clip-path="url(#clip-path)">
+    <line id="Linea_932" data-name="Linea 932" y1="11.28" transform="translate(40 17.385)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.5"/>
+    <g id="Raggruppa_2664" data-name="Raggruppa 2664">
+      <g id="Raggruppa_2663" data-name="Raggruppa 2663" clip-path="url(#clip-path)">
+        <g id="Raggruppa_2662" data-name="Raggruppa 2662" opacity="0">
+          <g id="Raggruppa_2661" data-name="Raggruppa 2661">
+            <g id="Raggruppa_2660" data-name="Raggruppa 2660" clip-path="url(#clip-path)">
+              <rect id="Rettangolo_2031" data-name="Rettangolo 2031" width="80" height="80" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <path id="Tracciato_2891" data-name="Tracciato 2891" d="M67.32,52.913c-2.03-10.794-3.446-24.439-13.414-27.358-3.117-.913-5.167,1.6-6.285,3.673a4.411,4.411,0,0,1-3.838,2.436H36.218a4.412,4.412,0,0,1-3.839-2.436c-1.118-2.075-3.167-4.586-6.285-3.673C16.126,28.474,14.71,42.119,12.68,52.913s5.845,11.4,8.184,10.25,6.522-6.992,9.845-7.331S40,55.356,40,55.356s5.969.136,9.291.476,7.507,6.177,9.846,7.331,10.214.543,8.183-10.25m-35.3-9.09H28.5v3.519H24.079V43.823H20.56V39.4h3.519v-3.52H28.5V39.4h3.52Zm17.032,4.3A2.926,2.926,0,1,1,51.979,45.2a2.927,2.927,0,0,1-2.927,2.926M56.8,40.6a2.926,2.926,0,1,1,2.927-2.927A2.927,2.927,0,0,1,56.8,40.6" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

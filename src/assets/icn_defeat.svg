@@ -1,0 +1,36 @@
+<svg id="icn_defeat" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_2017" data-name="Rettangolo 2017" width="80" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_2635" data-name="Raggruppa 2635" clip-path="url(#clip-path)">
+    <g id="Raggruppa_2632" data-name="Raggruppa 2632">
+      <g id="Raggruppa_2631" data-name="Raggruppa 2631" clip-path="url(#clip-path)">
+        <g id="Raggruppa_2630" data-name="Raggruppa 2630" opacity="0">
+          <g id="Raggruppa_2629" data-name="Raggruppa 2629">
+            <g id="Raggruppa_2628" data-name="Raggruppa 2628" clip-path="url(#clip-path)">
+              <rect id="Rettangolo_2010" data-name="Rettangolo 2010" width="80" height="80" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Tracciato_2849" data-name="Tracciato 2849" d="M40.006,21.615l5.651,4.945,3.59-4.828-5.7-2.648Z" fill="#fff"/>
+    <path id="Tracciato_2850" data-name="Tracciato 2850" d="M43.358,51.059l-3.243-6.627,4.507-3.221,1.912,3.76Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Tracciato_2851" data-name="Tracciato 2851" d="M58.14,32.528l3.094,2.707,4.26-2.857-4.328-2.012Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Tracciato_2852" data-name="Tracciato 2852" d="M17.37,34.9l2.516,2.2,3.465-2.324L19.833,33.14Z" transform="translate(0 0)" fill="#fff"/>
+    <g id="Raggruppa_2634" data-name="Raggruppa 2634">
+      <g id="Raggruppa_2633" data-name="Raggruppa 2633" clip-path="url(#clip-path)">
+        <path id="Tracciato_2853" data-name="Tracciato 2853" d="M40,69.481a13,13,0,0,1-12.989-12.99,12.707,12.707,0,0,1,.112-1.731l.163-1.167,1.1.431c2.81,1.106,6.522,2.69,6.56,2.706l.2.118,2.822,2.168,3.237-3.108,3.582,1.607,7.73-4.685.251,1.312a12.582,12.582,0,0,1,.214,2.349A13,13,0,0,1,40,69.481" transform="translate(0 0)" fill="#fff"/>
+        <path id="Tracciato_2854" data-name="Tracciato 2854" d="M23.861,38.775l-1.205.893,3.793,5.122-.391.4L7.347,32.435,6.5,33.673,33.943,52.39,24.009,38.976Z" transform="translate(0 0)" fill="#fff"/>
+        <rect id="Rettangolo_2013" data-name="Rettangolo 2013" width="1.5" height="5.576" transform="translate(13.148 26.831) rotate(-36.527)" fill="#fff"/>
+        <path id="Tracciato_2855" data-name="Tracciato 2855" d="M72.652,32.435,53.84,45.265l-.393-.4,5.039-6.9-1.212-.884L46.13,52.339,73.291,33.815l.207-.141Z" transform="translate(0 0)" fill="#fff"/>
+        <path id="Tracciato_2856" data-name="Tracciato 2856" d="M33.45,12.646l-1.491.161,3.034,28.039L34.45,41,23.323,18.585l-.11-.223-1.344.666L37.563,50.652,33.477,12.9Z" transform="translate(0)" fill="#fff"/>
+        <rect id="Rettangolo_2014" data-name="Rettangolo 2014" width="20.617" height="1.5" transform="matrix(0.445, -0.896, 0.896, 0.445, 47.73, 36.829)" fill="#fff"/>
+        <path id="Tracciato_2857" data-name="Tracciato 2857" d="M44.746,30.314l-.876,8.1,1.491.161.781-7.209Z" transform="translate(0 0)" fill="#fff"/>
+        <rect id="Rettangolo_2015" data-name="Rettangolo 2015" width="3.491" height="1.5" transform="translate(46.282 16.117) rotate(-83.799)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

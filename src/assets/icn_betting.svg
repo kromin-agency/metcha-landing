@@ -1,0 +1,19 @@
+<svg id="icn_betting" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_1867" data-name="Rettangolo 1867" width="80" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Tracciato_2519" data-name="Tracciato 2519" d="M547.658,13.558V31.314s11.873,2.567,12.621,5.027c.515,1.69-.941,8.634-1.9,12.813a9.777,9.777,0,0,0,.66,6.315l6.269,13.495s2.353,1.07,3.529-2.246-.535-15.3,0-16.9,2.14-7.858,11.231-8.475,13.584,11.042,14.547,13.288a10.527,10.527,0,0,1,.963,3.744s-4.921,3.957-3.316,7.38,4.869,2.032,6.687.749c.654-.462,1.253-2.738,1.752-3.14a3.926,3.926,0,0,0,1.457-3.06V50.032s-5.32-16.686-7.982-18.077-18.6-13.263-23.306-14.867-23.211-3.53-23.211-3.53" transform="translate(-534.908 -4.13)" fill="#fff"/>
+  <rect id="Rettangolo_1862" data-name="Rettangolo 1862" width="14.789" height="4.69" transform="translate(38.927 67.702)" fill="#fff"/>
+  <rect id="Rettangolo_1863" data-name="Rettangolo 1863" width="14.789" height="4.69" transform="translate(38.927 60.308)" fill="#fff"/>
+  <rect id="Rettangolo_1864" data-name="Rettangolo 1864" width="14.789" height="4.69" transform="translate(38.927 52.914)" fill="#fff"/>
+  <rect id="Rettangolo_1865" data-name="Rettangolo 1865" width="14.789" height="4.69" transform="translate(38.927 45.519)" fill="#fff"/>
+  <g id="Raggruppa_2310" data-name="Raggruppa 2310" opacity="0">
+    <g id="Raggruppa_2309" data-name="Raggruppa 2309">
+      <g id="Raggruppa_2308" data-name="Raggruppa 2308" clip-path="url(#clip-path)">
+        <rect id="Rettangolo_1866" data-name="Rettangolo 1866" width="80" height="80" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

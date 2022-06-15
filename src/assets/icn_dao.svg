@@ -1,0 +1,31 @@
+<svg id="icn_dao" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_2038" data-name="Rettangolo 2038" width="80" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_2671" data-name="Raggruppa 2671" clip-path="url(#clip-path)">
+    <g id="Raggruppa_2670" data-name="Raggruppa 2670">
+      <g id="Raggruppa_2669" data-name="Raggruppa 2669" clip-path="url(#clip-path)">
+        <g id="Raggruppa_2668" data-name="Raggruppa 2668" opacity="0">
+          <g id="Raggruppa_2667" data-name="Raggruppa 2667">
+            <g id="Raggruppa_2666" data-name="Raggruppa 2666" clip-path="url(#clip-path)">
+              <rect id="Rettangolo_2035" data-name="Rettangolo 2035" width="80" height="80" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Tracciato_2892" data-name="Tracciato 2892" d="M52.981,40.227,47.113,43.5l.963.491,5.867-3.276Z" fill="#fff"/>
+    <path id="Tracciato_2893" data-name="Tracciato 2893" d="M27.019,40.227,32.886,43.5l-.963.491-5.867-3.276Z" fill="#fff"/>
+    <path id="Tracciato_2894" data-name="Tracciato 2894" d="M38.205,55.85V65.6l-8.438-4.865V50.985Z" fill="#fff"/>
+    <path id="Tracciato_2895" data-name="Tracciato 2895" d="M50.234,50.985v9.748L41.8,65.6V55.85Z" fill="#fff"/>
+    <path id="Tracciato_2896" data-name="Tracciato 2896" d="M48.438,47.879,40,52.744l-8.438-4.865L40,43Z" fill="#fff"/>
+    <path id="Tracciato_2897" data-name="Tracciato 2897" d="M59.035,31.544v9.748L50.6,36.427V26.679Z" fill="#fff"/>
+    <path id="Tracciato_2898" data-name="Tracciato 2898" d="M71.064,26.679v9.748l-8.438,4.865V31.544Z" fill="#fff"/>
+    <path id="Tracciato_2899" data-name="Tracciato 2899" d="M69.269,23.573l-8.438,4.865-8.438-4.865,8.438-4.883Z" fill="#fff"/>
+    <path id="Tracciato_2900" data-name="Tracciato 2900" d="M17.374,31.544v9.748L8.936,36.427V26.679Z" fill="#fff"/>
+    <path id="Tracciato_2901" data-name="Tracciato 2901" d="M29.4,26.679v9.748l-8.438,4.865V31.544Z" fill="#fff"/>
+    <path id="Tracciato_2902" data-name="Tracciato 2902" d="M27.607,23.573l-8.438,4.865-8.438-4.865,8.438-4.883Z" fill="#fff"/>
+  </g>
+</svg>

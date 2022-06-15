@@ -1,0 +1,15 @@
+<svg id="icn_Lands" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="Raggruppa_2461" data-name="Raggruppa 2461" transform="translate(13.333 13.333)">
+    <g id="Rettangolo_1309" data-name="Rettangolo 1309" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="2">
+      <rect width="52.487" height="53.333" stroke="none"/>
+      <rect x="1" y="1" width="50.487" height="51.333" fill="none"/>
+    </g>
+    <path id="Tracciato_1703" data-name="Tracciato 1703" d="M-1960.328,473.651s5.477-.657,8.553-8.932,13.961-14.3,23.308-13.831,18.1,5.911,18.1,5.911" transform="translate(1961.712 -445.751)" fill="none" stroke="#fff" stroke-width="2"/>
+    <path id="Tracciato_1704" data-name="Tracciato 1704" d="M-1960.506,474.628a34.632,34.632,0,0,0,12.242-10.928c4.851-7.329,12.069-13,21.415-12.531a34.528,34.528,0,0,1,16.446,5.477" transform="translate(1961.75 -434.308)" fill="none" stroke="#fff" stroke-width="2"/>
+    <g id="Ellisse_21" data-name="Ellisse 21" transform="matrix(0.985, -0.174, 0.174, 0.985, 19.496, 28.173)" fill="none" stroke="#fff" stroke-width="2">
+      <ellipse cx="11.568" cy="8.483" rx="11.568" ry="8.483" stroke="none"/>
+      <ellipse cx="11.568" cy="8.483" rx="10.568" ry="7.483" fill="none"/>
+    </g>
+  </g>
+  <rect id="Rettangolo_1921" data-name="Rettangolo 1921" width="80" height="80" fill="#fff" opacity="0"/>
+</svg>

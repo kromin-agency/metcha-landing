@@ -1,0 +1,16 @@
+<svg id="icn_business" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_1869" data-name="Rettangolo 1869" width="80" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Tracciato_2520" data-name="Tracciato 2520" d="M717.628,28.158h-6.24v-7.78a8.145,8.145,0,0,0-8.13-8.14h-17.17a8.147,8.147,0,0,0-8.14,8.14v7.78h-6.24a4.153,4.153,0,0,0-4.15,4.15v24.34h20.11v-5.52h14v5.52h20.11V32.308a4.146,4.146,0,0,0-4.15-4.15m-34.68-7.78a3.145,3.145,0,0,1,3.14-3.14h17.17a3.137,3.137,0,0,1,3.13,3.14v7.78h-23.44Z" transform="translate(-654.908 -4.13)" fill="#fff"/>
+  <path id="Tracciato_2521" data-name="Tracciato 2521" d="M721.778,62.658v5.18a3.6,3.6,0,0,1-3.6,3.6h-47.02a3.6,3.6,0,0,1-3.6-3.6v-5.18h20.11v2.47h14v-2.47Z" transform="translate(-654.908 -4.13)" fill="#fff"/>
+  <g id="Raggruppa_2313" data-name="Raggruppa 2313" opacity="0">
+    <g id="Raggruppa_2312" data-name="Raggruppa 2312">
+      <g id="Raggruppa_2311" data-name="Raggruppa 2311" clip-path="url(#clip-path)">
+        <rect id="Rettangolo_1868" data-name="Rettangolo 1868" width="80" height="80" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg id="icn_battling" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_1854" data-name="Rettangolo 1854" width="80" height="80" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Raggruppa_2304" data-name="Raggruppa 2304" opacity="0">
+    <g id="Raggruppa_2303" data-name="Raggruppa 2303">
+      <g id="Raggruppa_2302" data-name="Raggruppa 2302" clip-path="url(#clip-path)">
+        <rect id="Rettangolo_1853" data-name="Rettangolo 1853" width="80" height="80" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+  <path id="Tracciato_2511" data-name="Tracciato 2511" d="M58.639,43.629l-.744-.744-13.21-13.21L30.1,44.258,44.056,58.212a12.142,12.142,0,0,0,8.851,3.313,21.852,21.852,0,0,0,7.229-1.311l.363-.142.142-.363c.159-.416,3.9-10.188-2-16.08M37.287,22.278l-.408-.408L22.3,36.453l5.139,5.139L42.018,27.009Z" transform="translate(1.949 1.942)" fill="#fff"/>
+  <path id="Tracciato_2512" data-name="Tracciato 2512" d="M41.726,17.868l7.911,7.911V17.711L45.76,13.834Z" transform="translate(-0.267 2.859)" fill="#fff"/>
+  <path id="Tracciato_2513" data-name="Tracciato 2513" d="M17.867,49.871h8.068L18.024,41.96,13.99,45.994Z" transform="translate(2.896 -0.349)" fill="#fff"/>
+  <rect id="Rettangolo_1855" data-name="Rettangolo 1855" width="1.772" height="13.652" transform="translate(16.886 17.701) rotate(-45)" fill="#fff"/>
+  <rect id="Rettangolo_1856" data-name="Rettangolo 1856" width="3.544" height="15.425" transform="translate(15.633 17.7) rotate(-45)" fill="#fff"/>
+  <rect id="Rettangolo_1857" data-name="Rettangolo 1857" width="3.543" height="8.598" transform="translate(26.079 16.844) rotate(-45)" fill="#fff"/>
+  <rect id="Rettangolo_1858" data-name="Rettangolo 1858" width="1.772" height="6.826" transform="translate(16.12 28.121) rotate(-45)" fill="#fff"/>
+  <rect id="Rettangolo_1859" data-name="Rettangolo 1859" width="3.543" height="8.598" transform="translate(14.867 28.121) rotate(-45)" fill="#fff"/>
+</svg>

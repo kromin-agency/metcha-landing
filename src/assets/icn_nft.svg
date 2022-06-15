@@ -1,0 +1,49 @@
+<svg id="icn_nft" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_4" data-name="Rettangolo 4" width="55.619" height="64.125" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Tracciato_5" data-name="Tracciato 5" d="M126.237,280.722l-.026,13.979c-1.045-3.37-3.455-11.156-3.455-11.341l-2.479,1.4v19.885l2.479,1.424V292.259l4.351,16.312,2.11,1.213v-30.7Z" transform="translate(-120.277 -279.087)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Tracciato_6" data-name="Tracciato 6" d="M384.629,144.01v33.968l2.8,1.846V162.682h10.417v-3.455H387.424V145.7l4.042-2.294,7.034,4.088,1.609-2.505-8.643-5.064Z" transform="translate(-384.629 -139.922)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Tracciato_7" data-name="Tracciato 7" d="M737.707,281.988l3.719,2.426v24.87l3.085-1.714V286.1l3.824,2.611v-3.27l-9.1-5.749Z" transform="translate(-737.707 -279.694)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <path id="Tracciato_8" data-name="Tracciato 8" d="M3.3,46.206V17.868l24.5-14.192L52.317,17.861V46.2L27.852,60.382ZM27.805,0,0,16.123V48.076L27.852,64.123,55.619,48.068V16.115L27.805,0Z" transform="translate(0 0.002)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Rettangolo_2056" data-name="Rettangolo 2056" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="80" height="80" stroke="none"/>
+    <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
+  </g>
+  <g id="Raggruppa_1176" data-name="Raggruppa 1176" transform="translate(12.477 8.07)">
+    <g id="Raggruppa_4" data-name="Raggruppa 4" transform="translate(0 0)">
+      <g id="Raggruppa_3" data-name="Raggruppa 3" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <g id="Raggruppa_1181" data-name="Raggruppa 1181" transform="translate(9.576 16.849)">
+          <g id="Raggruppa_5" data-name="Raggruppa 5" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+            <rect id="Rettangolo_5" data-name="Rettangolo 5" width="8.94" height="30.698" transform="translate(0 0)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Raggruppa_1182" data-name="Raggruppa 1182" transform="translate(21.048 10.81)">
+          <g id="Raggruppa_7" data-name="Raggruppa 7" transform="translate(0 0)" clip-path="url(#clip-path-3)">
+            <rect id="Rettangolo_6" data-name="Rettangolo 6" width="15.481" height="39.902" transform="translate(0)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Raggruppa_1183" data-name="Raggruppa 1183" transform="translate(36.371 16.876)">
+          <g id="Raggruppa_9" data-name="Raggruppa 9" transform="translate(0 0)" clip-path="url(#clip-path-4)">
+            <rect id="Rettangolo_7" data-name="Rettangolo 7" width="10.628" height="29.59" transform="translate(0 0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Raggruppa_12" data-name="Raggruppa 12" transform="translate(0 0)">
+      <g id="Raggruppa_11" data-name="Raggruppa 11" transform="translate(0 0)" clip-path="url(#clip-path-5)">
+        <rect id="Rettangolo_8" data-name="Rettangolo 8" width="55.619" height="64.125" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
