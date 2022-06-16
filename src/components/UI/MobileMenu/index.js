@@ -31,9 +31,7 @@ const MobileMenu = ({sections}) => {
                                 className={classes.link}
                                 key={index}
                             >
-                                <span>
-                                    {section.label}
-                                </span>
+                                {section.label}
                             </a>
                         ))
                     }

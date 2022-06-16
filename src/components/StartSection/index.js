@@ -3,6 +3,7 @@ import cx from 'classnames'
 import * as classes from "./startSection.module.scss"
 import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
 import Background from '../../images/backgrounds/start.mp4'
+import GradientLine from "../UI/GradientLine"
 
 const StartSection = () => {
     return (
@@ -10,14 +11,6 @@ const StartSection = () => {
             id="start"
             className={classes.startSection}
         >
-            <video
-                loop
-                muted
-                autoPlay
-                playsInline
-                src={Background}
-                className={classes.background}
-            />
             <div className="container">
                 <div className="row">
                     <div className={cx("col-12 flexbox-center", classes.content)}>
@@ -28,6 +21,15 @@ const StartSection = () => {
                 </div>
             </div>
 
+            <video
+                loop
+                muted
+                autoPlay
+                playsInline
+                src={Background}
+                className={classes.background}
+            />
+            <GradientLine className={classes.greenLine}/>
             <div className={classes.bgGradient}/>
         </section>
     )
