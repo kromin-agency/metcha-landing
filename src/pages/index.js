@@ -8,9 +8,9 @@ const IndexPage = () => (
     <Layout>
         <Seo title="Home"/>
         <div className="text-center">
-            <Image filename={"Mecha_Config1.png"} alt={"Metcha1"} style={{width:300}}/>
+            <Image filename={"Mecha_Config1.png"} alt={"Mecha1"} style={{width:300}}/>
             <h1>
-                Welcome to <b>Metcha!</b>
+                Welcome to <b>Mecha!</b>
             </h1>
             <p>
                 sample paragraph with an icon in .svg

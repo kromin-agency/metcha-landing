@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `Metchaversus`,
-        description: `Metchaversus - deploy, battle, earn`,
+        title: `Mechaversus`,
+        description: `Mechaversus - deploy, battle, earn`,
         author: `@kromin`,
         siteUrl: `https://kromin.it/en/`,
     },
@@ -45,8 +45,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Metchaversus`,
-                short_name: `Metcha`,
+                name: `Mechaversus`,
+                short_name: `Mecha`,
                 start_url: `/`,
                 background_color: `#663399`,
                 // This will impact how browsers show your PWA/website
