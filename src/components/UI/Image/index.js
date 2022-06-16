@@ -3,7 +3,12 @@ import { graphql, StaticQuery } from "gatsby"; // to query for image data
 import PropTypes from "prop-types";
 import {GatsbyImage} from "gatsby-plugin-image";
 
-const Image = ({datoCmsImgData = null, ...props}) => (
+const Image = ({
+                   datoCmsImgData = null,
+                   alt = '',
+                   filename,
+                   ...rest
+}) => (
     <StaticQuery
         query={graphql`
             query {
@@ -22,10 +27,11 @@ const Image = ({datoCmsImgData = null, ...props}) => (
         `}
         render={(data) => {
             const image = data.images.edges.find((n) => {
-                return n.node.relativePath.includes(props.filename);
+                return n.node.relativePath.includes(filename);
             });
 
-            return image ? <GatsbyImage alt={props.alt} image={image.node.childImageSharp.gatsbyImageData} {...props}/> : <></>;
+            console.log(image)
+            return image ? <GatsbyImage alt={alt} image={image.node.childImageSharp.gatsbyImageData} {...rest}/> : <></>;
         }}
     />
 );

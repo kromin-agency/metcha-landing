@@ -7,7 +7,7 @@ import cx from 'classnames'
 
 const SocialIcons = () => {
     return (
-        <div className={cx(classes.socialIcons, "d-flex-start")}>
+        <div className={cx("flexbox-start", classes.socialIcons)}>
             <a href="https://www.kromin.it" target="_blank">
                 <TelegramIcon/>
             </a>

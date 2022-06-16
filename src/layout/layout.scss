@@ -5,6 +5,7 @@
 /**
 Here we can write css for our layout component
 **/
+
 html, body {
     background-color: #185226;
     font-family: "Rajdhani", serif;
@@ -23,8 +24,9 @@ a {
     text-decoration: none;
 }
 
-h1 {
+h1, h2 {
   font-family: "Orbitron", serif;
+    margin: 0;
 }
 
 p{
@@ -66,13 +68,18 @@ html {
     position: relative;
 }
 
-.d-flex-start {
+.flexbox-start {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
+.flexbox-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.d-flex-between {
+.flexbox-between {
     display: flex;
     justify-content: space-between;
     align-items: center;
