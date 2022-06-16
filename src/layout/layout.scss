@@ -20,6 +20,7 @@ html, body {
 
 a {
     line-height: 1;
+    text-decoration: none;
 }
 
 h1 {
@@ -68,5 +69,11 @@ html {
 .d-flex-start {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
+}
+
+.d-flex-between {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }

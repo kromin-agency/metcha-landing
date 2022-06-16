@@ -4,11 +4,13 @@ import Layout from "../layout";
 import Image from "../components/UI/Image";
 import AlienIcon from "../assets/icn_alien.svg"
 import SocialIcons from "../components/UI/SocialIcons"
+import Sidebar from "../components/UI/Sidebar"
 
 const IndexPage = () => (
     <Layout>
         <Seo title="Home"/>
         <SocialIcons/>
+        <Sidebar/>
         {/*<div className="text-center">
             <Image filename={"Mecha_Config1.png"} alt={"Mecha1"} style={{width:300}}/>
             <h1>
