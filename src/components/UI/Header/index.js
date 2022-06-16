@@ -6,8 +6,8 @@ import Image from "../Image";
 
 const Header = ({ siteTitle }) => (
     <header className={classes.root}>
-        <Link to="/"> {siteTitle}</Link>
-        <Image filename={"Logotype_Mechaversus_pos.png"} alt={"logo"} style={{width:60}}/>
+        {/*<Link to="/"> {siteTitle}</Link>
+        <Image filename={"Logotype_Mechaversus_pos.png"} alt={"logo"} style={{width:60}}/>*/}
     </header>
 )
 

@@ -5,6 +5,23 @@
 /**
 Here we can write css for our layout component
 **/
+html, body {
+    background-color: #185226;
+    font-family: "Rajdhani", serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    line-height: 1;
+}
+
 h1 {
   font-family: "Orbitron", serif;
 }
@@ -17,17 +34,6 @@ p{
     }
 }
 
-html, body {
-    font-family: "Rajdhani", serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    scroll-behavior: smooth;
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-}
 
 tspan, input, textarea {
     font-family: "Rajdhani", serif;
@@ -57,4 +63,10 @@ html {
 
 .position-relative {
     position: relative;
+}
+
+.d-flex-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }

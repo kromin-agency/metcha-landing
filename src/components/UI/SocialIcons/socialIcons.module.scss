@@ -1,0 +1,15 @@
+.socialIcons {
+  position: fixed;
+  top: 12px;
+  right: 8px;
+  gap: 8px;
+  & svg {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  @media (min-width: 768px) {
+    top: 16px;
+    right: 24px;
+  }
+}
