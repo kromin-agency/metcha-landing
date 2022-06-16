@@ -1,11 +1,25 @@
 import * as React from "react"
 import Seo from "../components/Seo/seo"
 import Layout from "../layout";
-import Image from "../components/UI/Image";
-import AlienIcon from "../assets/icn_alien.svg"
 import SocialIcons from "../components/UI/SocialIcons"
 import Sidebar from "../components/UI/Sidebar"
 import StartSection from "../components/StartSection"
+import MobileMenu from "../components/UI/MobileMenu"
+
+const SECTIONS = [
+    {id: '#start', label: 'Start'},
+    {id: '#story', label: 'Story'},
+    {id: '#token', label: 'Token'},
+    {id: '#biomes', label: 'Biomes'},
+    {id: '#pilots', label: 'Pilots'},
+    {id: '#mecha', label: 'Mecha'},
+    {id: '#arenas', label: 'Arenas'},
+    {id: '#earn', label: 'Earn by playing mechanics'},
+    {id: '#gameExp', label: 'Game experiences'},
+    {id: '#nft', label: 'NFT marketplace'},
+    {id: '#partners', label: 'Partners'},
+    {id: '#channels', label: 'Whitepapers & channels'}
+]
 
 const IndexPage = () => (
     <Layout>
@@ -13,23 +27,11 @@ const IndexPage = () => (
 
         {/* fixed components */}
         <SocialIcons/>
-        <Sidebar/>
+        <Sidebar sections={SECTIONS}/>
+        <MobileMenu sections={SECTIONS}/>
 
         {/* sections */}
         <StartSection/>
-
-
-
-        {/*<div className="text-center">
-            <Image filename={"Mecha_Config1.png"} alt={"Mecha1"} style={{width:300}}/>
-            <h1>
-                Welcome to <b>Mecha!</b>
-            </h1>
-            <p>
-                sample paragraph with an icon in .svg
-                <AlienIcon/>
-            </p>
-        </div>*/}
     </Layout>
 )
 

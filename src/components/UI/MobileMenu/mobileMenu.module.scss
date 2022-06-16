@@ -1,0 +1,45 @@
+.mobileMenu {
+  z-index: 9001;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 360px;
+  max-width: 100%;
+  overflow: auto;
+  background-color: #23332EF2;
+  transition: ease-in-out 300ms;
+  nav {
+    margin-top: 40px;
+    padding: 0 60px 0 20px;
+    a {
+      display: block;
+      color: #FFF;
+      font-size: 18px;
+      font-weight: 500;
+      text-transform: uppercase;
+      border-bottom: 1px solid #FFFFFF59;
+      padding-bottom: 8px;
+      margin-bottom: 24px;
+    }
+  }
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menuOpen {
+  transform: translateX(0);
+}
+
+.menuClosed {
+  transform: translateX(-360px);
+}
+
+.head {
+  padding: 12px 16px;
+  text-align: right;
+  img {
+    width: 40px;
+  }
+}

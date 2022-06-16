@@ -3,6 +3,7 @@ import cx from 'classnames'
 import * as classes from "./startSection.module.scss"
 import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
 import Background from '../../images/backgrounds/start.mp4'
+
 const StartSection = () => {
     return (
         <section

@@ -1,30 +1,16 @@
 import React from "react"
 import cx from 'classnames'
 import * as classes from "./sidebar.module.scss"
+import PropTypes from "prop-types"
 
-const SECTIONS = [
-    {id: '#start', label: 'Start'},
-    {id: '#story', label: 'Story'},
-    {id: '#token', label: 'Token'},
-    {id: '#biomes', label: 'Biomes'},
-    {id: '#pilots', label: 'Pilots'},
-    {id: '#mecha', label: 'Mecha'},
-    {id: '#arenas', label: 'Arenas'},
-    {id: '#earn', label: 'Earn by playing mechanics'},
-    {id: '#gameExp', label: 'Game experiences'},
-    {id: '#nft', label: 'NFT marketplace'},
-    {id: '#partners', label: 'Partners'},
-    {id: '#channels', label: 'Whitepapers & channels'}
-]
-
-const Sidebar = () => {
+const Sidebar = ({sections}) => {
 
     return (
         <div className={classes.sidebar}>
             <div className={cx(classes.line, classes.lineTop)}/>
             <nav>
                 {
-                    SECTIONS.map((section, index) => (
+                    sections.map((section, index) => (
                         <a
                             href={section.id}
                             className={classes.link}
@@ -43,3 +29,7 @@ const Sidebar = () => {
 }
 
 export default Sidebar
+
+Sidebar.propTypes = {
+    sections: PropTypes.array.isRequired
+}

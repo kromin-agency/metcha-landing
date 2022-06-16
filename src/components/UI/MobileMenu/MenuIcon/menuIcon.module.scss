@@ -1,0 +1,17 @@
+.menuIcon {
+  z-index: 9002;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 0;
+  outline: none;
+  border: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  background: transparent;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
