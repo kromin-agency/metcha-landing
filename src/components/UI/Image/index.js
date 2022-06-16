@@ -30,7 +30,6 @@ const Image = ({
                 return n.node.relativePath.includes(filename);
             });
 
-            console.log(image)
             return image ? <GatsbyImage alt={alt} image={image.node.childImageSharp.gatsbyImageData} {...rest}/> : <></>;
         }}
     />

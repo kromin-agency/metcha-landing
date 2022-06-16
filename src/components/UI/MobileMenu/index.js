@@ -30,6 +30,7 @@ const MobileMenu = ({sections}) => {
                                 href={section.id}
                                 className={classes.link}
                                 key={index}
+                                onClick={toggleMenu}
                             >
                                 {section.label}
                             </a>

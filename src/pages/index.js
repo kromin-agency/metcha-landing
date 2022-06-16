@@ -5,6 +5,7 @@ import SocialIcons from "../components/UI/SocialIcons"
 import Sidebar from "../components/UI/Sidebar"
 import StartSection from "../components/StartSection"
 import MobileMenu from "../components/UI/MobileMenu"
+import StorySection from "../components/StorySection"
 
 const SECTIONS = [
     {id: '#start', label: 'Start'},
@@ -32,6 +33,7 @@ const IndexPage = () => (
 
         {/* sections */}
         <StartSection/>
+        <StorySection/>
     </Layout>
 )
 
