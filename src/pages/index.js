@@ -6,20 +6,22 @@ import Sidebar from "../components/UI/Sidebar"
 import StartSection from "../components/StartSection"
 import MobileMenu from "../components/UI/MobileMenu"
 import StorySection from "../components/StorySection"
+import TokenSection from "../components/TokenSection"
+import {sections} from "../helpers/constants"
 
 const SECTIONS = [
-    {id: '#start', label: 'Start'},
-    {id: '#story', label: 'Story'},
-    {id: '#token', label: 'Token'},
-    {id: '#biomes', label: 'Biomes'},
-    {id: '#pilots', label: 'Pilots'},
-    {id: '#mecha', label: 'Mecha'},
-    {id: '#arenas', label: 'Arenas'},
-    {id: '#earn', label: 'Earn by playing mechanics'},
-    {id: '#gameExp', label: 'Game experiences'},
-    {id: '#nft', label: 'NFT marketplace'},
-    {id: '#partners', label: 'Partners'},
-    {id: '#channels', label: 'Whitepapers & channels'}
+    {id: `#${sections.START}`, label: 'Start'},
+    {id: `#${sections.STORY}`, label: 'Story'},
+    {id: `#${sections.TOKEN}`, label: 'Token'},
+    {id: `#${sections.BIOMES}`, label: 'Biomes'},
+    {id: `#${sections.PILOTS}`, label: 'Pilots'},
+    {id: `#${sections.MECHA}`, label: 'Mecha'},
+    {id: `#${sections.ARENAS}`, label: 'Arenas'},
+    {id: `#${sections.EARN_PLAYING_MECHANICS}`, label: 'Earn by playing mechanics'},
+    {id: `#${sections.GAME_EXPERIENCES}`, label: 'Game experiences'},
+    {id: `#${sections.NFT_MARKETPLACE}`, label: 'NFT marketplace'},
+    {id: `#${sections.PARTNERS}`, label: 'Partners'},
+    {id: `#${sections.WHITEPAPERS_CHANNELS}`, label: 'Whitepapers & channels'}
 ]
 
 const IndexPage = () => (
@@ -34,6 +36,7 @@ const IndexPage = () => (
         {/* sections */}
         <StartSection/>
         <StorySection/>
+        <TokenSection/>
     </Layout>
 )
 

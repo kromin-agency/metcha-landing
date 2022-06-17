@@ -16,6 +16,7 @@ html, body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    color: #FFF;
 }
 
 a {
@@ -28,6 +29,16 @@ h1, h2, h3, h4 {
     margin: 0;
     font-weight: 700;
     line-height: 100%;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 26px;
+    color: #34DB21;
 }
 
 p{

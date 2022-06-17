@@ -2,14 +2,12 @@ import React from "react"
 import * as classes from './storySection.module.scss'
 import GradientLine from "../UI/GradientLine"
 import Image from "../UI/Image"
-
-const planetLeftPath = "Planet1.png"
-const planetRightPath = "Planet2.png"
+import {sections} from "../../helpers/constants"
 
 const StorySection = () => {
     return (
-        <div
-            id="story"
+        <section
+            id={sections.STORY}
             className={classes.storySection}
         >
             <div className="container">
@@ -43,10 +41,10 @@ const StorySection = () => {
                 </div>
             </div>
 
-            <Image filename={planetLeftPath} alt={"planet"} className={classes.planetLeft}/>
-            <Image filename={planetRightPath} alt={"planet"} className={classes.planetRight}/>
+            <Image filename={"Planet1.png"} alt={"planet"} className={classes.planetLeft}/>
+            <Image filename={"Planet2.png"} alt={"planet"} className={classes.planetRight}/>
             <GradientLine className={classes.greenLine}/>
-        </div>
+        </section>
     )
 }
 

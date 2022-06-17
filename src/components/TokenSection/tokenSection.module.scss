@@ -1,0 +1,33 @@
+.tokenSection {
+  padding-top: 135px;
+  position: relative;
+  text-align: center;
+  background-color: #23332E;
+  h3 {
+    margin-bottom: 10px;
+  }
+  h4 {
+    margin-bottom: 580px;
+  }
+}
+
+.greenLine {
+  display: none;
+  @media (min-width: 768px) {
+    z-index: 9000;
+    display: block;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    width: 60%;
+  }
+}
+
+.bgGradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent linear-gradient(180deg, #23332E 0%, #23332E00 100%) 0 0 no-repeat padding-box;
+  height: 200px;
+}

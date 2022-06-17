@@ -4,11 +4,12 @@ import * as classes from "./startSection.module.scss"
 import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
 import Background from '../../images/backgrounds/start.mp4'
 import GradientLine from "../UI/GradientLine"
+import {sections} from "../../helpers/constants"
 
 const StartSection = () => {
     return (
         <section
-            id="start"
+            id={sections.START}
             className={classes.startSection}
         >
             <div className="container">
