@@ -1,0 +1,58 @@
+.boxList {
+  position: relative;
+  background: #21253066;
+  padding: 32px 16px 16px;
+  color: #FFF;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+  border-top-width: 3px;
+  border-top-style: solid;
+  margin-top: 40px;
+  @media (min-width: 992px) {
+    margin-top: 0;
+  }
+}
+
+.title {
+  margin-bottom: 8px;
+  gap: 8px;
+  svg {
+    height: 24px;
+    width: 24px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+  ul {
+    li {
+      font-size: 22px;
+    }
+  }
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.middleBorder {
+  width: 50px;
+  height: 9px;
+  position: absolute;
+  top: -3px;
+  right: 50%;
+  background-color: #23332E;
+  border-left-width: 3px;
+  border-left-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}

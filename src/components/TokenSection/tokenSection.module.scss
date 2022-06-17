@@ -1,6 +1,5 @@
 .tokenSection {
   z-index: 9;
-  padding-top: 135px;
   position: relative;
   text-align: center;
   background-color: #23332E;
@@ -8,8 +7,34 @@
     margin-bottom: 10px;
   }
   h4 {
-    margin-bottom: 580px;
+    margin-bottom: 48px;
   }
+}
+
+.topSection {
+  padding-top: 135px;
+  position: relative;
+}
+
+.bottomSection {
+  padding-bottom: 32px;
+}
+
+.largeMargin {
+  margin-top: 250px;
+  @media (min-width: 576px) {
+    margin-top: 320px;
+  }
+  @media (min-width: 768px) {
+    margin-top: 440px;
+  }
+  @media (min-width: 1200px) {
+    margin-top: 580px;
+  }
+}
+
+.videoWrapper {
+  position: relative;
 }
 
 .background {
@@ -36,11 +61,20 @@
   }
 }
 
-.bgGradient {
+.bgGradientTop {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   background: transparent linear-gradient(180deg, #23332E 0%, #23332E00 100%) 0 0 no-repeat padding-box;
+  height: 200px;
+}
+
+.bgGradientBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent linear-gradient(0deg, #23332E 0%, #23332E00 100%) 0 0 no-repeat padding-box;
   height: 200px;
 }
