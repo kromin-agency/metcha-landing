@@ -55,6 +55,7 @@ const TokenSection = () => {
                         __html: `<video
                                     id="videoRef"
                                     muted
+                                    autoplay
                                     playsInline
                                     src=${Background}
                                  />`

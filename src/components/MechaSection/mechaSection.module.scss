@@ -1,0 +1,22 @@
+.mechaSection {
+  position: relative;
+  padding: 175px 0 120px;
+  background: #23332E linear-gradient(-75deg, #3BF94E00 0%, #01000140 100%) 0 0 no-repeat padding-box;
+  h3 {
+    margin-bottom: 24px;
+  }
+  h4 {
+    margin-bottom: 32px;
+  }
+}
+
+.whiteDivider {
+  top: 0;
+  left: 0;
+  width: 100%;
+  @media (min-width: 768px) {
+    top: 80px;
+    left: 0;
+    width: 60%;
+  }
+}

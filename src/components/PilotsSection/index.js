@@ -21,6 +21,7 @@ const PilotsSection = () => {
                     <div className="col-12 col-lg-6">
                         <video
                             muted
+                            autoPlay
                             playsInline
                             src={HelmetVideo}
                             className={classes.helmetVideo}
