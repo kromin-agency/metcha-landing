@@ -22,13 +22,17 @@ const StartSection = () => {
                 </div>
             </div>
 
-            <video
-                loop
-                muted
-                autoPlay
-                playsInline
-                src={Background}
+            <div
                 className={classes.background}
+                dangerouslySetInnerHTML={{
+                    __html: `<video
+                                loop
+                                muted
+                                autoplay
+                                playsInline
+                                src=${Background}
+                             />`
+                }}
             />
             <GradientLine className={classes.greenLine}/>
             <div className={classes.bgGradient}/>
