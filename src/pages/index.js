@@ -8,6 +8,7 @@ import MobileMenu from "../components/UI/MobileMenu"
 import StorySection from "../components/StorySection"
 import TokenSection from "../components/TokenSection"
 import {sections} from "../helpers/constants"
+import BiomesSection from "../components/BiomesSection"
 
 const SECTIONS = [
     {id: `#${sections.START}`, label: 'Start'},
@@ -37,6 +38,7 @@ const IndexPage = () => (
         <StartSection/>
         <StorySection/>
         <TokenSection/>
+        <BiomesSection/>
     </Layout>
 )
 

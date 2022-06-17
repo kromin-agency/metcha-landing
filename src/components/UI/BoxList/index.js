@@ -49,5 +49,6 @@ export default BoxList
 BoxList.propTypes = {
     number: PropTypes.string,
     color: PropTypes.string,
-    items: PropTypes.array
+    items: PropTypes.array,
+    style: PropTypes.object
 }

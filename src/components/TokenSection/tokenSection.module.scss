@@ -60,21 +60,3 @@
     width: 60%;
   }
 }
-
-.bgGradientTop {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: transparent linear-gradient(180deg, #23332E 0%, #23332E00 100%) 0 0 no-repeat padding-box;
-  height: 200px;
-}
-
-.bgGradientBottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: transparent linear-gradient(0deg, #23332E 0%, #23332E00 100%) 0 0 no-repeat padding-box;
-  height: 200px;
-}

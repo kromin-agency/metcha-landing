@@ -8,12 +8,10 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import "./layout.scss"
-import { useStaticQuery, graphql } from "gatsby"
-import Header from "../components/UI/Header";
-import Footer from "../components/UI/Footer";
+/*import { useStaticQuery, graphql } from "gatsby"*/
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
+/*  const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
@@ -21,14 +19,10 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `)*/
 
   return (
-    <>
-        <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-        <main> {children} </main>
-        <Footer/>
-    </>
+      <main> {children} </main>
   )
 }
 
