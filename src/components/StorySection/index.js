@@ -20,6 +20,10 @@ const StorySection = () => {
                             <span>To face the</span>
                             Biggest multiplanetary crisis
                         </h4>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-12 col-md-10 offset-md-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3">
                         <p>
                             <span>2900 A.C.</span> The Milky Way is teeming with life: humans and aliens are part now of a new order
                             called the <span>Network</span> That is in charge of assigning to every member pool-planets where to
