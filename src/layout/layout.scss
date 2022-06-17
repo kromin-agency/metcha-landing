@@ -92,12 +92,16 @@ html {
     justify-content: flex-start;
     align-items: center;
 }
+.flexbox-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .flexbox-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .flexbox-between {
     display: flex;
     justify-content: space-between;

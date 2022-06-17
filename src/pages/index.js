@@ -9,6 +9,7 @@ import StorySection from "../components/StorySection"
 import TokenSection from "../components/TokenSection"
 import {sections} from "../helpers/constants"
 import BiomesSection from "../components/BiomesSection"
+import PilotsSection from "../components/PilotsSection"
 
 const SECTIONS = [
     {id: `#${sections.START}`, label: 'Start'},
@@ -39,6 +40,7 @@ const IndexPage = () => (
         <StorySection/>
         <TokenSection/>
         <BiomesSection/>
+        <PilotsSection/>
     </Layout>
 )
 
