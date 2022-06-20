@@ -14,7 +14,7 @@ const MechaSection = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-5">
+                    <div className="col-12 col-lg-5">
                         <h3>Enpower your mechas army</h3>
                         <h4>Upgrade, breed, reforge</h4>
                         <p>
@@ -25,7 +25,7 @@ const MechaSection = () => {
                             modules, choose the right core and connect sockets. Build your mecha alongside your strategy!
                         </p>
                     </div>
-                    <div className="col-7">
+                    <div className="col-12 col-lg-7">
                         <MechaConfigurator/>
                     </div>
                 </div>

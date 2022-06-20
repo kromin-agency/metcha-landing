@@ -1,0 +1,42 @@
+<svg id="Card" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="301.834" height="358.428" viewBox="0 0 301.834 358.428">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_2028" data-name="Rettangolo 2028" width="274" height="318" transform="translate(21 35)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rettangolo_2034" data-name="Rettangolo 2034" width="160" height="160" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Lines" d="M15.146,165.575,0,180.85V508.728L15.146,524H284.261l7.148-7.208V504.975l8-9.842V303.646l-7.745-9.531v-61.8l7.745-7.624V180.85l-15.146-15.275Z" transform="translate(0 -165.575)" fill="#22252e" opacity="0.32"/>
+  <g id="Container" transform="translate(1.984 2.103)" opacity="0.22">
+    <path id="Tracciato_1410" data-name="Tracciato 1410" d="M21.077,173.708,8.124,186.77V511.521l12.953,13.062H287.09l4.954-5v-11.6l8-9.842V309.352l-7.745-9.531V235.082l7.745-7.624V186.77L287.09,173.708Zm-.465-1.133Zm280.3,326.281-7.745,9.531v11.669l-5.612,5.66H20.611L7,511.99V186.3l13.61-13.726H287.556l13.61,13.726v41.635l-7.745,7.624v63.856l7.745,9.531" transform="translate(-7.001 -172.575)" fill="#fff"/>
+    <path id="Tracciato_1411" data-name="Tracciato 1411" d="M787.1,601.913l7.745-6.943V536.825l-7.745-8.678Z" transform="translate(-494.993 -393.874)" fill="#fff"/>
+    <path id="Tracciato_1412" data-name="Tracciato 1412" d="M317.3,183.385l-6.884-7.81H383.56l-8.605,7.81Z" transform="translate(-196.803 -174.442)" fill="#fff"/>
+    <rect id="Rettangolo_1148" data-name="Rettangolo 1148" width="6.74" height="0.755" transform="translate(281.486 233.651)" fill="#fff"/>
+    <rect id="Rettangolo_1149" data-name="Rettangolo 1149" width="6.74" height="0.755" transform="translate(281.486 237.427)" fill="#fff"/>
+    <rect id="Rettangolo_1150" data-name="Rettangolo 1150" width="6.74" height="0.755" transform="translate(281.486 241.203)" fill="#fff"/>
+    <rect id="Rettangolo_1151" data-name="Rettangolo 1151" width="6.74" height="0.755" transform="translate(281.486 244.98)" fill="#fff"/>
+    <rect id="Rettangolo_1152" data-name="Rettangolo 1152" width="6.74" height="0.755" transform="translate(281.486 248.756)" fill="#fff"/>
+    <rect id="Rettangolo_1153" data-name="Rettangolo 1153" width="6.74" height="0.755" transform="translate(281.486 252.532)" fill="#fff"/>
+    <rect id="Rettangolo_1154" data-name="Rettangolo 1154" width="6.74" height="0.755" transform="translate(281.486 256.309)" fill="#fff"/>
+    <rect id="Rettangolo_1155" data-name="Rettangolo 1155" width="6.74" height="0.755" transform="translate(281.486 260.085)" fill="#fff"/>
+    <rect id="Rettangolo_1156" data-name="Rettangolo 1156" width="6.74" height="0.755" transform="translate(281.486 263.861)" fill="#fff"/>
+    <rect id="Rettangolo_1157" data-name="Rettangolo 1157" width="6.74" height="0.755" transform="translate(281.486 267.637)" fill="#fff"/>
+    <rect id="Rettangolo_1158" data-name="Rettangolo 1158" width="6.74" height="0.755" transform="translate(281.486 271.413)" fill="#fff"/>
+    <rect id="Rettangolo_1159" data-name="Rettangolo 1159" width="6.74" height="0.755" transform="translate(281.486 275.19)" fill="#fff"/>
+    <rect id="Rettangolo_1160" data-name="Rettangolo 1160" width="6.74" height="0.755" transform="translate(281.486 278.966)" fill="#fff"/>
+    <rect id="Rettangolo_1161" data-name="Rettangolo 1161" width="6.74" height="0.755" transform="translate(281.486 282.742)" fill="#fff"/>
+    <rect id="Rettangolo_1162" data-name="Rettangolo 1162" width="6.74" height="0.755" transform="translate(281.486 286.519)" fill="#fff"/>
+    <rect id="Rettangolo_1163" data-name="Rettangolo 1163" width="6.74" height="0.755" transform="translate(281.486 290.295)" fill="#fff"/>
+    <rect id="Rettangolo_1164" data-name="Rettangolo 1164" width="6.74" height="0.755" transform="translate(281.486 294.071)" fill="#fff"/>
+    <rect id="Rettangolo_1165" data-name="Rettangolo 1165" width="6.74" height="0.755" transform="translate(281.486 297.847)" fill="#fff"/>
+    <rect id="Rettangolo_1166" data-name="Rettangolo 1166" width="6.74" height="0.755" transform="translate(281.486 301.623)" fill="#fff"/>
+    <rect id="Rettangolo_1167" data-name="Rettangolo 1167" width="6.74" height="0.755" transform="translate(281.486 305.4)" fill="#fff"/>
+    <rect id="Rettangolo_1168" data-name="Rettangolo 1168" width="6.74" height="0.755" transform="translate(281.486 309.176)" fill="#fff"/>
+    <rect id="Rettangolo_1169" data-name="Rettangolo 1169" width="6.74" height="0.755" transform="translate(281.486 312.952)" fill="#fff"/>
+    <rect id="Rettangolo_1170" data-name="Rettangolo 1170" width="6.74" height="0.755" transform="translate(281.486 316.729)" fill="#fff"/>
+    <rect id="Rettangolo_1171" data-name="Rettangolo 1171" width="6.74" height="0.755" transform="translate(281.486 320.505)" fill="#fff"/>
+    <path id="Tracciato_1413" data-name="Tracciato 1413" d="M709.661,322.477h0Z" transform="translate(-446.552 -265.87)" fill="#fff"/>
+    <path id="Tracciato_2672" data-name="Tracciato 2672" d="M.375,320.792h0Z" transform="translate(28.251 -0.62)" fill="#fff"/>
+  </g>
+</svg>

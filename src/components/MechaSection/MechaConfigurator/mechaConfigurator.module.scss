@@ -1,15 +1,67 @@
+.configuration {
+  position: relative;
+  align-items: flex-start;
+}
+
+.stats {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  @media (min-width: 992px) {
+    position: static;
+  }
+}
+
 .singleAbility {
-  margin-bottom: 40px;
+  width: 90px;
+  margin-bottom: 16px;
   h5 {
-    font-weight: 500;
-    font-size: 28px;
-    margin-bottom: 8px;
+    display: none;
   }
   >div {
-    height: 6px;
+    height: 3px;
     background: #FFFFFF1A;
-    span {
+    >div {
       height: 100%;
+      transition: ease-in-out 500ms;
+    }
+  }
+  @media (min-width: 576px) {
+    width: 120px;
+    margin-bottom: 24px;
+    >div {
+      height: 4px;
+    }
+  }
+  @media (min-width: 576px) {
+    width: 160px;
+    margin-bottom: 32px;
+    >div {
+      height: 6px;
+    }
+  }
+  @media (min-width: 992px) {
+    width: 240px;
+    margin-bottom: 40px;
+    h5 {
+      display: block;
+      font-weight: 500;
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.buttons {
+  gap: 16px;
+  button {
+    width: 96px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    padding: 0;
+    @media (min-width: 576px) {
+      width: 240px;
     }
   }
 }
