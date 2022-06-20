@@ -15,6 +15,7 @@ import ArenasSection from "../components/ArenasSection"
 import EarnSection from "../components/EarnSection"
 import ExperiencesSection from "../components/ExperiencesSection"
 import NftSection from "../components/NftSection"
+import PartnerSection from "../components/PartnerSection"
 
 const SECTIONS = [
     {id: `#${sections.START}`, label: 'Start'},
@@ -51,6 +52,7 @@ const IndexPage = () => (
         <EarnSection/>
         <ExperiencesSection/>
         <NftSection/>
+        <PartnerSection/>
     </Layout>
 )
 
