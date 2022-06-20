@@ -7,6 +7,7 @@ import EmailIcon from '../../assets/icn_mail.svg'
 import {sections} from "../../helpers/constants"
 import Background from '../../images/generics/bg-Contacts.png'
 import cx from 'classnames'
+import Button from "../UI/Button"
 
 const ChannelsSection = () => {
     return (
@@ -57,18 +58,3 @@ const ChannelsSection = () => {
 }
 
 export default ChannelsSection
-
-const Button = ({text}) => {
-    return (
-        <button className={cx("flexbox-center", classes.button)}>
-            {text}
-
-            <div className={classes.squares}>
-                <div/>
-                <div/>
-                <div/>
-                <div/>
-            </div>
-        </button>
-    )
-}
