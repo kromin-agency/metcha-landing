@@ -13,7 +13,7 @@ const ChannelsSection = () => {
             className={classes.channelsSection}
             style={{backgroundImage: `url(${Background})`}}
         >
-            <div className="bgGradientTop"/>
+            <div className="bg-gradient-top"/>
 
             <div className="container">
                 <div className="row">

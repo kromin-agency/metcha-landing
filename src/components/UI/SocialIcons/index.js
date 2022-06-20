@@ -11,7 +11,7 @@ const SocialIcons = () => {
             <a href="https://www.kromin.it" target="_blank">
                 <TelegramIcon/>
             </a>
-            <a href="mailto:test@test.com">
+            <a href="mailto:info@mechaversus.co">
                 <EmailIcon/>
             </a>
             <a href="https://www.kromin.it" target="_blank">

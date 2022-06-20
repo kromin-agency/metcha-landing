@@ -15,8 +15,8 @@ const ArenasSection = () => {
             className={classes.arenaSection}
             style={{backgroundImage: `url(${Background})`}}
         >
-            <div className="bgGradientTop"/>
-            <div className="bgGradientBottom"/>
+            <div className="bg-gradient-top"/>
+            <div className="bg-gradient-bottom"/>
 
             <div className="container">
                 <div className="row">

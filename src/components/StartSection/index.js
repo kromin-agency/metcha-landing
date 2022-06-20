@@ -35,7 +35,7 @@ const StartSection = () => {
                 }}
             />
             <GradientLine className={classes.greenLine}/>
-            <div className={classes.bgGradient}/>
+            <div className="bg-gradient-bottom"/>
         </section>
     )
 }

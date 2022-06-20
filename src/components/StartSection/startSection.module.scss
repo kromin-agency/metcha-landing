@@ -68,13 +68,3 @@
     display: block;
   }
 }
-
-.bgGradient {
-  z-index: 8999;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 155px;
-  background: transparent linear-gradient(0deg, #23332E 0%, #23332E00 100%) 0 0 no-repeat padding-box;;
-}

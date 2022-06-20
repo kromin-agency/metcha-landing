@@ -120,7 +120,7 @@ html {
     align-items: center;
 }
 
-.bgGradientTop {
+.bg-gradient-top {
     position: absolute;
     top: 0;
     left: 0;
@@ -128,8 +128,7 @@ html {
     background: transparent linear-gradient(180deg, #23332E 0%, #23332E00 100%) 0 0 no-repeat padding-box;
     height: 200px;
 }
-
-.bgGradientBottom {
+.bg-gradient-bottom {
     position: absolute;
     bottom: 0;
     left: 0;

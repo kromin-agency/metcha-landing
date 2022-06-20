@@ -25,8 +25,8 @@ const BiomesSection = () => {
             className={classes.biomesSection}
             style={{backgroundImage: `url(${selectedMech.background})`}}
         >
-            <div className="bgGradientTop"/>
-            <div className="bgGradientBottom"/>
+            <div className="bg-gradient-top"/>
+            <div className="bg-gradient-bottom"/>
             <div className={cx("whiteDivider", classes.whiteDivider)}/>
 
             <div className="container">

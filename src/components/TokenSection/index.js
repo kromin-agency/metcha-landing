@@ -35,8 +35,8 @@ const TokenSection = () => {
                 className={classes.topSection}
                 onClick={playPauseVideo}
             >
-                <div className="bgGradientTop"/>
-                <div className="bgGradientBottom"/>
+                <div className="bg-gradient-top"/>
+                <div className="bg-gradient-bottom"/>
                 <GradientLine className={classes.greenLine}/>
 
                 <div className="container">
