@@ -13,6 +13,7 @@ import PilotsSection from "../components/PilotsSection"
 import MechaSection from "../components/MechaSection"
 import ArenasSection from "../components/ArenasSection"
 import EarnSection from "../components/EarnSection"
+import ExperiencesSection from "../components/ExperiencesSection"
 
 const SECTIONS = [
     {id: `#${sections.START}`, label: 'Start'},
@@ -47,6 +48,7 @@ const IndexPage = () => (
         <MechaSection/>
         <ArenasSection/>
         <EarnSection/>
+        <ExperiencesSection/>
     </Layout>
 )
 
