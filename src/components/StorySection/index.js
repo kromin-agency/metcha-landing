@@ -1,6 +1,6 @@
 import React from "react"
 import * as classes from './storySection.module.scss'
-import GradientLine from "../UI/GradientLine"
+import cx from 'classnames'
 import Image from "../UI/Image"
 import {sections} from "../../helpers/constants"
 
@@ -8,7 +8,7 @@ const StorySection = () => {
     return (
         <section
             id={sections.STORY}
-            className={classes.storySection}
+            className={cx("section-small-padding", classes.storySection)}
         >
             <div className="container">
                 <div className="row">
@@ -43,7 +43,7 @@ const StorySection = () => {
 
             <Image filename={"Planet1.png"} alt={"planet"} className={classes.planetLeft}/>
             <Image filename={"Planet2.png"} alt={"planet"} className={classes.planetRight}/>
-            <GradientLine className={classes.greenLine}/>
+            <div className={cx("bg-green-line", classes.greenLine)}/>
         </section>
     )
 }

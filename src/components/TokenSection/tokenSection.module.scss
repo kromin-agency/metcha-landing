@@ -2,10 +2,6 @@
   z-index: 9;
   position: relative;
   text-align: center;
-  background-color: #23332E;
-  h3 {
-    margin-bottom: 10px;
-  }
   h4 {
     margin-bottom: 48px;
   }
@@ -52,9 +48,7 @@
 .greenLine {
   display: none;
   @media (min-width: 768px) {
-    z-index: 9000;
     display: block;
-    position: absolute;
     top: 56px;
     left: 0;
     width: 60%;

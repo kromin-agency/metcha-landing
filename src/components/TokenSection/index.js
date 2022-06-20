@@ -1,6 +1,5 @@
 import React from "react"
 import * as classes from './tokenSection.module.scss'
-import GradientLine from "../UI/GradientLine"
 import {sections} from "../../helpers/constants"
 import Background from "../../images/backgrounds/token.mp4"
 import BoxList from "../UI/BoxList"
@@ -37,7 +36,7 @@ const TokenSection = () => {
             >
                 <div className="bg-gradient-top"/>
                 <div className="bg-gradient-bottom"/>
-                <GradientLine className={classes.greenLine}/>
+                <div className={cx("bg-green-line", classes.greenLine)}/>
 
                 <div className="container">
                     <div className="row">

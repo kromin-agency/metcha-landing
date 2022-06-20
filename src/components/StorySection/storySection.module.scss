@@ -1,11 +1,8 @@
 .storySection {
   z-index: 10;
   position: relative;
-  background-color: #23332E;
-  padding-bottom: 48px;
   h3, h4 {
     text-align: center;
-    margin-bottom: 20px;
   }
   h4 {
     margin-bottom: 72px;
@@ -16,15 +13,10 @@
       margin-bottom: 16px;
     }
   }
-  p {
-    margin-bottom: 16px;
-  }
 }
 
 .greenLine {
-  z-index: 9000;
   display: none;
-  position: absolute;
   bottom: 20px;
   right: 0;
   width: 512px;

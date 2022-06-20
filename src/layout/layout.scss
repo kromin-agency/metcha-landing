@@ -16,6 +16,7 @@ html, body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    background-color: #23332E;
     color: #FFF;
 }
 
@@ -34,6 +35,7 @@ h1, h2, h3, h4, h5 {
 
 h3 {
     font-size: 32px;
+    margin-bottom: 16px;
     @media (min-width: 768px) {
         font-size: 40px;
     }
@@ -58,7 +60,7 @@ ul {
 p{
     font-size: 22px;
     line-height: 1.5;
-    margin: 0;
+    margin: 0 0 24px 0;
     span {
         color: #34DB21;
     }
@@ -66,6 +68,9 @@ p{
         path{
             fill: darkolivegreen;
         }
+    }
+    &:last-child {
+        margin-bottom: 0;
     }
 }
 
@@ -137,9 +142,23 @@ html {
     height: 200px;
 }
 
+.bg-green-line {
+    z-index: 9000;
+    height: 4px;
+    background: transparent linear-gradient(90deg, #185226 0%, #15632700 100%) 0 0 no-repeat padding-box;
+    position: absolute;
+}
+
 .whiteDivider {
     z-index: 9000;
     position: absolute;
     height: 1px;
     background-color: #FFFFFF59;
+}
+
+.section-small-padding {
+    padding: 56px 0;
+}
+.section-big-padding {
+    padding: 120px 0;
 }

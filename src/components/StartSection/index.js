@@ -3,7 +3,6 @@ import cx from 'classnames'
 import * as classes from "./startSection.module.scss"
 import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
 import Background from '../../images/backgrounds/start.mp4'
-import GradientLine from "../UI/GradientLine"
 import {sections} from "../../helpers/constants"
 
 const StartSection = () => {
@@ -34,7 +33,10 @@ const StartSection = () => {
                              />`
                 }}
             />
-            <GradientLine className={classes.greenLine}/>
+            {/*<div className={classes.background}>
+                <iframe style={{height: '100%', width: '100%'}} src="https://youtube.com/embed/M7qbun2D0M8?autoplay=1&controls=0&showinfo=0&autohide=1"/>
+            </div>*/}
+            <div className={cx("bg-green-line", classes.greenLine)}/>
             <div className="bg-gradient-bottom"/>
         </section>
     )

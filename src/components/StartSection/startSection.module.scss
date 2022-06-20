@@ -1,6 +1,7 @@
-.startSection {
+.startSection {z-index: 2;
   position: relative;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .background {
@@ -16,7 +17,6 @@
 }
 
 .content {
-  text-transform: uppercase;
   min-height: 100vh;
   flex-direction: column;
   gap: 24px;
@@ -57,9 +57,7 @@
 }
 
 .greenLine {
-  z-index: 9000;
   display: none;
-  position: absolute;
   top: 72px;
   right: 0;
   width: 512px;

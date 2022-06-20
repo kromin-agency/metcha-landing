@@ -1,12 +1,13 @@
 import React from "react"
 import * as classes from './partnerSection.module.scss'
 import {sections} from "../../helpers/constants"
+import cx from 'classnames'
 
 const PartnerSection = () => {
     return (
         <div
             id={sections.PARTNERS}
-            className={classes.partnerSection}
+            className={cx("section-big-padding", classes.partnerSection)}
         >
             <div className="container">
                 <div className="row">

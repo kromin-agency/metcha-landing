@@ -6,44 +6,48 @@ import TelegramIcon from '../../assets/icn_telegram.svg'
 import EmailIcon from '../../assets/icn_mail.svg'
 import {sections} from "../../helpers/constants"
 import Background from '../../images/generics/bg-Contacts.png'
+import cx from 'classnames'
+
 const ChannelsSection = () => {
     return (
         <div
             id={sections.WHITEPAPERS_CHANNELS}
-            className={classes.channelsSection}
+            className={cx("section-big-padding", classes.channelsSection)}
             style={{backgroundImage: `url(${Background})`}}
         >
             <div className="bg-gradient-top"/>
 
             <div className="container">
                 <div className="row">
-                    <h3>Are you ready?</h3>
+                    <div className="col-12">
+                        <h3>Are you ready?</h3>
+                    </div>
                 </div>
-                <div className="row">
-                    <div className="col-2">
+                <div className={cx("row", classes.boxes)}>
+                    <div className={cx("col-12 col-md-4 col-xl-auto flexbox-start", classes.actionColumn)}>
                         <h5>Whitepaper</h5>
-                        <div>
-                            <WhitepaperIcon/>
-                        </div>
+                        <WhitepaperIcon/>
+                        <Button text={'download'}/>
                     </div>
-                    <div className="col-4">
+                    <div className={cx("col-12 col-md-8 col-xl-auto flexbox-start", classes.actionColumn)}>
                         <h5>Join our channels</h5>
-                        <div>
-                            <div>
+                        <div className="flexbox-center" style={{gap: '32px'}}>
+                            <div className="flexbox-center" style={{flexDirection: 'column', gap: '56px'}}>
                                 <DiscordIcon/>
+                                <Button text={'discord'}/>
                             </div>
-                            <div>
+                            <div className="flexbox-center" style={{flexDirection: 'column', gap: '56px'}}>
                                 <TelegramIcon/>
+                                <Button text={'telegram'}/>
                             </div>
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div className={cx("col-12 col-xl flexbox-start", classes.actionColumn)}>
                         <h5>Subscribe to our newsletter</h5>
-                        <div>
-                            <EmailIcon/>
-                            <div>
-
-                            </div>
+                        <EmailIcon/>
+                        <div className={cx("flexbox-center", classes.submit)}>
+                            <input type="text" placeholder="Email address" className={classes.inputText}/>
+                            <Button text={'Submit'}/>
                         </div>
                     </div>
                 </div>
@@ -53,3 +57,18 @@ const ChannelsSection = () => {
 }
 
 export default ChannelsSection
+
+const Button = ({text}) => {
+    return (
+        <button className={cx("flexbox-center", classes.button)}>
+            {text}
+
+            <div className={classes.squares}>
+                <div/>
+                <div/>
+                <div/>
+                <div/>
+            </div>
+        </button>
+    )
+}
