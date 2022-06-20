@@ -1,0 +1,81 @@
+.earnCard {
+  position: relative;
+  width: 300px;
+  img {
+    width: 100%;
+    transition: ease-in-out 300ms;
+  }
+  svg {
+    width: 160px;
+    height: 160px;
+    transition: ease-in-out 300ms;
+  }
+  &:hover {
+    img {
+      transform: scale(1.05);
+    }
+    .text {
+      transform: translateY(0);
+    }
+    svg {
+      opacity: 0;
+    }
+    h5 {
+      height: auto;
+    }
+  }
+  @media (min-width: 992px) {
+    width: 200px;
+    svg {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  @media (min-width: 1200px) {
+    width: 240px;
+    svg {
+      width: 120px;
+      height: 120px;
+    }
+  }
+}
+
+.textWrapper {
+  position: absolute;
+  inset: 16px;
+  overflow: hidden;
+}
+
+.text {
+  height: 100%;
+  transform: translateY(calc(100% - 48px));
+  text-align: center;
+  transition: ease-in-out 300ms;
+  h5 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    height: 48px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  @media (min-width: 992px) {
+    h5 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 1200px) {
+    h5 {
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}

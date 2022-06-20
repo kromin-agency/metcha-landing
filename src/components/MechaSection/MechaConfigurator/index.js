@@ -45,7 +45,6 @@ const MechaConfigurator = () => {
 
     const onSelectConfiguration = (configurationName) => {
         const newConfiguration = configurations.find(e => e.name === configurationName)
-        console.log(newConfiguration)
         setSelectedConfig(newConfiguration)
     }
 
