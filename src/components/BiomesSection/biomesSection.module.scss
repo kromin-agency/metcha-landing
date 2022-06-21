@@ -9,12 +9,57 @@
   }
 }
 
-.whiteDivider {
-  top: 280px;
-  right: 0;
-  width: 80%;
-  @media (min-width: 992px) {
-    top: 190px;
-    width: 50%;
+.buttons {
+  flex-direction: column;
+  gap: 16px;
+}
+
+.smallCard {
+  position: relative;
+  width: 150px;
+  cursor: pointer;
+  img {
+    width: 100%;
   }
+  svg {
+    width: 100px;
+    height: 100px;
+    transition: ease-in-out 200ms;
+  }
+  h5 {
+    font-family: "Orbitron", serif;
+    font-size: 12px;
+    text-align: center;
+    transition: ease-in-out 200ms;
+  }
+}
+
+.activeSmallCard {
+  svg path, circle {
+    stroke: #3BF9F3;
+    font-size: 16px;
+    transition: ease-in-out 200ms;
+  }
+  h5 {
+    font-size: 16px;
+    color: #3BF9F3;
+    transition: ease-in-out 200ms;
+  }
+}
+
+.mechImageWrapper {
+  height: 100%;
+}
+
+.mechImage {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  transition: ease-in-out 500ms;
+  transform: translateX(100vw);
+}
+
+.selectedMech {
+  transition: ease-in-out 500ms;
+  transform: translateX(0);
 }
