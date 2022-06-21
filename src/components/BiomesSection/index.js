@@ -43,7 +43,7 @@ const BiomesSection = () => {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-3">
+                    <div className="col-5 col-xl-3">
                         <div className={cx("flexbox-center", classes.buttons)}>
                             <div
                                 className={cx("flexbox-center", classes.smallCard, selectedMech.name === PIRATES ? classes.activeSmallCard : "")}
@@ -86,7 +86,7 @@ const BiomesSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-5">
+                    <div className="col-5 d-none d-xl-block">
                         <div className={classes.statsCard}>
                             <img src={BigCard} alt="Big Card"/>
                             <div className={classes.topStats}>
@@ -95,25 +95,22 @@ const BiomesSection = () => {
                             <p>{selectedMech.text}</p>
                         </div>
                     </div>
-                    <div className="col-4">
-                        <div className={classes.mechImageWrapper}>
-                            <Image
-                                filename={'img_mech_pirate.png'}
-                                alt={'Mech'}
-                                className={cx(classes.mechImage, selectedMech.name === PIRATES ? classes.selectedMech : "")}
-                            />
-                            <Image
-                                filename={'img_mech_Alien.png'}
-                                alt={'Mech'}
-                                className={cx(classes.mechImage, selectedMech.name === ALIENS ? classes.selectedMech : "")}
-                            />
-                            <Image
-                                filename={'img_mech_human.png'}
-                                alt={'Mech'}
-                                className={cx(classes.mechImage, selectedMech.name === HUMANS ? classes.selectedMech : "")}
-                            />
-                        </div>
-
+                    <div className="col-7 col-xl-4" style={{position: 'relative'}}>
+                        <Image
+                            filename={'img_mech_pirate.png'}
+                            alt={'Mech'}
+                            className={cx(classes.mechImage, selectedMech.name === PIRATES ? classes.selectedMech : "")}
+                        />
+                        <Image
+                            filename={'img_mech_Alien.png'}
+                            alt={'Mech'}
+                            className={cx(classes.mechImage, selectedMech.name === ALIENS ? classes.selectedMech : "")}
+                        />
+                        <Image
+                            filename={'img_mech_human.png'}
+                            alt={'Mech'}
+                            className={cx(classes.mechImage, selectedMech.name === HUMANS ? classes.selectedMech : "")}
+                        />
                     </div>
                 </div>
                 <div className="row flexbox-center">

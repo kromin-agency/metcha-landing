@@ -16,21 +16,38 @@
 
 .smallCard {
   position: relative;
-  width: 150px;
+  width: 100px;
   cursor: pointer;
   img {
     width: 100%;
   }
   svg {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     transition: ease-in-out 200ms;
   }
   h5 {
     font-family: "Orbitron", serif;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     transition: ease-in-out 200ms;
+  }
+  @media (min-width: 576px) {
+    width: 120px;
+    svg {
+      width: 80px;
+      height: 80px;
+    }
+    h5 {
+      font-size: 12px;
+    }
+  }
+  @media (min-width: 992px) {
+    width: 150px;
+    svg {
+      width: 100px;
+      height: 100px;
+    }
   }
 }
 
@@ -41,22 +58,26 @@
     transition: ease-in-out 200ms;
   }
   h5 {
-    font-size: 16px;
+    font-size: 12px;
     color: #3BF9F3;
     transition: ease-in-out 200ms;
   }
-}
-
-.mechImageWrapper {
-  height: 100%;
+  @media (min-width: 576px) {
+    h5 {
+      font-size: 16px;
+    }
+  }
 }
 
 .mechImage {
   position: absolute;
-  inset: 0;
   height: 100%;
   transition: ease-in-out 500ms;
   transform: translateX(100vw);
+  overflow: visible;
+  img {
+    width: auto;
+  }
 }
 
 .selectedMech {
