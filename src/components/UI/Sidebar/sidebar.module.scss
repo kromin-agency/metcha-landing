@@ -19,20 +19,31 @@
 }
 
 .link {
+  gap: 16px;
   width: max-content;
   color: #FFF;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
-  span {
+  svg {
+    fill: transparent;
+    stroke: #FFF;
+    stroke-width: 1px;
+    width: 16px;
+    transform: rotate(90deg);
     transition: ease-in-out 200ms;
-    opacity: 0;
-    pointer-events: none;
+  }
+  span {
+    display: none;
+    transition: ease-in-out 200ms;
   }
   &:hover {
+    svg {
+      transform: rotate(90deg) scale(1.5);
+      stroke-width: 4px;
+    }
     span {
-      opacity: 1;
-      pointer-events: auto;
+      display: block;
     }
   }
 }

@@ -5,11 +5,15 @@ import HelmetVideo from '../../images/generics/220610 - Helmet Animation light.m
 import HumanIcon from '../../assets/icn_human.svg'
 import AlienIcon from '../../assets/icn_alien.svg'
 import PirateIcon from '../../assets/icn_pirate.svg'
+import {sections} from "../../helpers/constants"
 
 
 const PilotsSection = () => {
     return (
-        <section className={classes.pilotsSection}>
+        <section
+            id={sections.PILOTS}
+            className={classes.pilotsSection}
+        >
             <div className="container">
                 <div className="row">
                     <div className="col-12">
