@@ -18,7 +18,9 @@ const Image = ({
                             relativePath
                             name
                             childImageSharp {
-                                gatsbyImageData
+                                gatsbyImageData(
+                                    placeholder: NONE
+                                )
                             }
                         }
                     }
