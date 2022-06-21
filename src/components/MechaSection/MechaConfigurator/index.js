@@ -2,6 +2,7 @@ import React, {useState} from "react"
 import Image from "../../UI/Image"
 import * as classes from './mechaConfigurator.module.scss'
 import cx from 'classnames'
+import Hexagon from "../../../assets/icn_hexagon.svg"
 
 const WEAPON_1 = 'weapon_1'
 const WEAPON_2 = 'weapon_2'
@@ -68,6 +69,11 @@ const MechaConfigurator = () => {
                         ))
                     }
                 </div>
+            </div>
+            <div className={classes.points}>
+                <Hexagon className={selectedConfig.name === WEAPON_1 ? classes.selectedHex : ""}/>
+                <Hexagon className={selectedConfig.name === WEAPON_2 ? classes.selectedHex : ""}/>
+                <Hexagon className={selectedConfig.name === WEAPON_3 ? classes.selectedHex : ""}/>
             </div>
             <div className={cx("flexbox-center", classes.buttons)}>
                 <button onClick={() => onSelectConfiguration(WEAPON_1)}>

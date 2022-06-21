@@ -63,3 +63,47 @@
   transition: ease-in-out 500ms;
   transform: translateX(0);
 }
+
+.statsCard {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  p {
+    position: absolute;
+    top: 310px;
+    left: 8px;
+    right: 8px;
+    font-size: 18px;
+  }
+}
+
+.topStats {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  h5 {
+    font-family: "Orbitron", serif;
+    font-size: 32px;
+  }
+}
+
+.points {
+  margin-top: 24px;
+  display: flex;
+  gap: 8px;
+  svg {
+    width: 24px;
+    height: 24px;
+    transform: rotate(90deg);
+    opacity: 0.2;
+    transition: ease-in-out 200ms;
+  }
+}
+
+.selectedHex {
+  opacity: 0.5 !important;
+  transition: ease-in-out 200ms;
+}

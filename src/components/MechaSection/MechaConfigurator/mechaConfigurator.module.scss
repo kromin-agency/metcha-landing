@@ -65,3 +65,22 @@
     }
   }
 }
+
+.points {
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  svg {
+    width: 24px;
+    height: 24px;
+    transform: rotate(90deg);
+    opacity: 0.2;
+    transition: ease-in-out 200ms;
+  }
+}
+
+.selectedHex {
+  opacity: 0.5 !important;
+  transition: ease-in-out 200ms;
+}
