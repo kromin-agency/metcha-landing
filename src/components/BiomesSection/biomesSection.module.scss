@@ -128,3 +128,10 @@
   opacity: 0.5 !important;
   transition: ease-in-out 200ms;
 }
+
+.line {
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
+  width: 82px !important;
+}

@@ -12,6 +12,9 @@ import HumanIcon from '../../assets/icn_mech_human_biome.svg'
 import Image from "../UI/Image"
 import BigCard from '../../images/generics/choose_big_card.svg'
 import Hexagon from '../../assets/icn_hexagon.svg'
+import Line1 from '../../images/generics/Line1.svg'
+import Line2 from '../../images/generics/Line2.svg'
+import Line3 from '../../images/generics/Line3.svg'
 
 const PIRATES = 'pirates'
 const ALIENS = 'aliens'
@@ -88,6 +91,18 @@ const BiomesSection = () => {
                     </div>
                     <div className="col-5 d-none d-xl-block">
                         <div className={classes.statsCard}>
+                            <img
+                                src={
+                                    selectedMech.name === PIRATES
+                                        ? Line1
+                                        : selectedMech.name === ALIENS
+                                            ? Line2
+                                            : Line3
+                                }
+                                alt="Line"
+                                className={classes.line}
+                                style={{top: selectedMech.name === PIRATES ? 120 : 220}}
+                            />
                             <img src={BigCard} alt="Big Card"/>
                             <div className={classes.topStats}>
                                 <h5>{selectedMech.name}</h5>
