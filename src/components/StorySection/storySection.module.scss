@@ -52,3 +52,22 @@
     right: -500px;
   }
 }
+
+.dividerTop {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 156px;
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+.dividerBottom {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 156px;
+  @media (min-width: 768px) {
+    display: block;
+  }
+}

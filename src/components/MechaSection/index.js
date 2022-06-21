@@ -3,6 +3,7 @@ import {sections} from "../../helpers/constants"
 import * as classes from './mechaSection.module.scss'
 import cx from 'classnames'
 import MechaConfigurator from "./MechaConfigurator"
+import Divider from '../../images/generics/div2.svg'
 
 const MechaSection = () => {
     return (
@@ -30,6 +31,12 @@ const MechaSection = () => {
                     </div>
                 </div>
             </div>
+
+            <img
+                src={Divider}
+                alt="Divider"
+                className={classes.bottomDivider}
+            />
         </section>
     )
 }

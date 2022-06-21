@@ -6,13 +6,20 @@ import CustomizeIcon from '../../assets/icn_building.svg'
 import BattleIcon from '../../assets/icn_battling.svg'
 import NftIcon from '../../assets/icn_nft.svg'
 import GalaxyIcon from '../../assets/icn_galaxy.svg'
-
+import Divider from '../../images/generics/div1.svg'
 const ExperiencesSection = () => {
     return (
         <div
             id={sections.GAME_EXPERIENCES}
             className={classes.experiencesSection}
         >
+            <div className={cx("flexbox-end", classes.topDivider)}>
+                <img
+                    src={Divider}
+                    alt="Divider"
+                />
+            </div>
+
             <div className={cx("whiteDivider", classes.whiteLineDivider)}/>
 
             <div className="container">

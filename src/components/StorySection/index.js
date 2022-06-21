@@ -3,6 +3,7 @@ import * as classes from './storySection.module.scss'
 import cx from 'classnames'
 import Image from "../UI/Image"
 import {sections} from "../../helpers/constants"
+import Divider from '../../images/generics/div1.svg'
 
 const StorySection = () => {
     return (
@@ -10,6 +11,12 @@ const StorySection = () => {
             id={sections.STORY}
             className={cx("section-small-padding", classes.storySection)}
         >
+            <img
+                src={Divider}
+                alt="Divider"
+                className={classes.dividerTop}
+            />
+
             <div className="container">
                 <div className="row">
                     <div className="col-12">
@@ -44,6 +51,11 @@ const StorySection = () => {
             <Image filename={"Planet1.png"} alt={"planet"} className={classes.planetLeft}/>
             <Image filename={"Planet2.png"} alt={"planet"} className={classes.planetRight}/>
             <div className={cx("bg-green-line", classes.greenLine)}/>
+            <img
+                src={Divider}
+                alt="Divider"
+                className={classes.dividerBottom}
+            />
         </section>
     )
 }

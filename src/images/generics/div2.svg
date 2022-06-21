@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1923" height="195" viewBox="0 0 1923 195">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rettangolo_1986" data-name="Rettangolo 1986" width="1923" height="195" transform="translate(2.5 3803.43)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="gfx1" transform="translate(-2.5 -3803.43)" clip-path="url(#clip-path)">
+    <path id="GFX" d="M197.285,2109.225l81.307-81.437V82.431L197.285,1H82.308L49.119,34.239v69.668L1,162.723V1294.965l46.6,56.954v382.355l-.3.294L1,1779.828l0,247.96,81.3,81.437H197.285m.415,1h0Zm0,0H81.888L0,2028.2l0-248.795,46.6-45.554V1352.276L0,1295.322V82.018l1.522-1.525V160.5l46.6-56.954V33.826L81.894,0H197.7l81.892,82.018V2028.2L197.7,2110.225Z" transform="translate(2112.225 3883.204) rotate(90)" fill="#fff" opacity="0.36"/>
+  </g>
+</svg>
