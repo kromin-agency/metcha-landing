@@ -45,8 +45,8 @@ const PilotsSection = () => {
                             </div>
                         </div>
                         <p>
-                            In Mechaversus, <span>NFTs</span> can be <span>collected</span> in the form
-                            of <span>mech pilots in Helmets.</span>
+                            In Mechaversus, <span><strong>NFTs</strong></span> can be <span><strong>collected</strong></span> in the form
+                            of <span><strong>mech pilots in Helmets.</strong></span>
                             <br/>
                             The reforging system allows players to pursue rarity mixing two different helmets in order
                             to craft a new NFT that can be used in-game or traded on the marketplace.

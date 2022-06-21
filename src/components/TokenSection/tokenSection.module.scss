@@ -46,11 +46,11 @@
 }
 
 .greenLine {
-  display: none;
+  top: 0;
+  left: 0;
+  width: 100%;
   @media (min-width: 768px) {
-    display: block;
     top: 56px;
-    left: 0;
     width: 60%;
   }
 }
