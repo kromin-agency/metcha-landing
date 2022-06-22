@@ -3,11 +3,11 @@ import cx from 'classnames'
 import * as classes from "./startSection.module.scss"
 import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
 import {sections} from "../../helpers/constants"
-import Video from "../UI/Video"
-import {useWindowSize} from "../../helpers/useWindowSize"
+import Background from '../../images/backgrounds/start.mp4'
+import Thumbnail from '../../images/backgrounds/start_thumb.png'
 
 const StartSection = () => {
-    const {width: pageWidth, height: pageHeight} = useWindowSize()
+/*    const {width: pageWidth, height: pageHeight} = useWindowSize()*/
 
     return (
         <section
@@ -24,11 +24,24 @@ const StartSection = () => {
                 </div>
             </div>
 
-            <Video
+            <div
+                className={classes.background}
+                dangerouslySetInnerHTML={{
+                    __html: `<video
+                                loop
+                                muted
+                                autoplay
+                                playsInline
+                                src=${Background}
+                                style="background: url(${Thumbnail}) center / cover no-repeat"
+                             />`
+                }}
+            />
+            {/*<Video
                 idVideo={'M7qbun2D0M8'}
                 className={classes.videoContainer}
                 iframeClassName={cx("absolute-centered", pageHeight > pageWidth ? classes.iframeH : classes.iframeV)}
-            />
+            />*/}
             <div className={cx("bg-green-line", classes.greenLine)}/>
             <div className="bg-gradient-bottom"/>
         </section>

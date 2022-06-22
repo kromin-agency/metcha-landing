@@ -57,11 +57,17 @@ const TokenSection = () => {
                         topSectionSize.height > topSectionSize.width
                         ? {
                             height: topSectionSize.height,
-                            width: topSectionSize.height * 1.89
+                            width: topSectionSize.height * 1.89,
+                            '@media screen and(min-width: 1200px)': {
+                                width: topSectionSize.height,
+                            }
                         }
                         : {
                             height: topSectionSize.width,
-                            width: topSectionSize.width * 1.89
+                            width: topSectionSize.width * 1.89,
+                                '@media screen and(min-width: 1200px)': {
+                                    width: topSectionSize.width,
+                                }
                         }
                     }
                 />

@@ -5,7 +5,7 @@ const Video = ({idVideo, iframeClassName, iframeStyle, ...rest}) => {
     return (
         <div {...rest}>
             <iframe
-                src={`https://www.youtube.com/embed/${idVideo}?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=${idVideo}`}
+                src={`https://www.youtube.com/embed/${idVideo}?controls=0&showinfo=0&rel=0&vq=hd1080&autoplay=1&loop=1&mute=1&playlist=${idVideo}`}
                 allow="autoplay"
                 frameBorder="0"
                 webkitallowfullscreen="true"
