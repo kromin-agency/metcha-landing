@@ -169,3 +169,11 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.back-to-top {
+    z-index: 9500;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+}
