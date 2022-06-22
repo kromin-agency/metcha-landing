@@ -2,7 +2,6 @@ import React from "react"
 import * as classes from './earnSection.module.scss'
 import {sections} from "../../helpers/constants"
 import cx from 'classnames'
-import Card from '../../images/generics/Card.svg'
 import PlayIcon from '../../assets/icn_play.svg'
 import DaoIcon from '../../assets/icn_dao.svg'
 import ManagementIcon from '../../assets/icn_management.svg'

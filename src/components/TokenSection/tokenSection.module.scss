@@ -29,21 +29,38 @@
   }
 }
 
-.videoWrapper {
-  position: relative;
+.videoContainer {
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
 }
 
-.background {
-  video {
+/*.videoContainer {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  iframe {
     z-index: -1;
     position: absolute;
-    inset: 0;
-    width:100%;
-    height:100%;
-    object-fit: cover;
-    object-position: center;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100%;
+    transform: translate(-50%, -50%);
   }
-}
+  @media (min-aspect-ratio: 16/9) {
+    iframe {
+      height: 56.25vw;
+    }
+  }
+  @media (max-aspect-ratio: 16/9) {
+    iframe {
+      width: 177.78vh;
+    }
+  }
+}*/
 
 .greenLine {
   top: 0;

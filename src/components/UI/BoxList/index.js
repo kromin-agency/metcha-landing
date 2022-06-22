@@ -29,7 +29,7 @@ const BoxList = ({
 
             {
                 items.map(({icon, title, list}, index) => (
-                    <div>
+                    <div key={index}>
                         <span className={cx("flexbox-start" ,classes.title)}>
                             {icon}
                             <h5>{title}</h5>

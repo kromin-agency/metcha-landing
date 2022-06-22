@@ -2,7 +2,6 @@ import React from "react"
 import * as classes from './earnCard.module.scss'
 import Card from "../../../images/generics/Card.svg"
 import PropTypes from "prop-types"
-import cx from 'classnames'
 
 const EarnCard = ({
     icon,

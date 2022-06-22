@@ -27,13 +27,13 @@
 }
 
 .planetLeft {
-  display: none;
-  z-index: -1;
-  position: absolute;
-  top: 50px;
-  width: 1300px;
+  display: none !important;
   @media (min-width: 576px) {
-    display: block;
+    display: block !important;
+    z-index: -1;
+    position: absolute !important;
+    top: 50px;
+    width: 1300px;
     left: -850px;
   }
   @media (min-width: 1200px) {
@@ -43,10 +43,10 @@
 
 .planetRight {
   z-index: -1;
-  position: absolute;
+  position: absolute !important;
   top: 50%;
-  transform: translateY(-50%);
-  right: -580px;
+  transform: translateY(-50%) !important;
+  right: -580px !important;
   width: 850px;
   @media (min-width: 768px) {
     right: -500px;
@@ -55,7 +55,7 @@
 
 .dividerTop {
   display: none;
-  position: absolute;
+  position: absolute !important;
   top: 50px;
   left: 156px;
   @media (min-width: 768px) {

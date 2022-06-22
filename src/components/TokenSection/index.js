@@ -1,7 +1,6 @@
-import React from "react"
+import React, {useEffect, useRef, useState} from "react"
 import * as classes from './tokenSection.module.scss'
 import {sections} from "../../helpers/constants"
-import Background from "../../images/backgrounds/token.mp4"
 import BoxList from "../UI/BoxList"
 import cx from 'classnames'
 import TradingIcon from '../../assets/icn_trading.svg'
@@ -13,16 +12,20 @@ import DesignIcon from '../../assets/icn_design.svg'
 import BuildingIcon from '../../assets/icn_building.svg'
 import BattlingIcon from '../../assets/icn_battling.svg'
 import AchievingIcon from '../../assets/icn_win.svg'
+import Video from "../UI/Video"
+import {useWindowSize} from "../../helpers/useWindowSize"
 
 const TokenSection = () => {
-    const playPauseVideo = () => {
-        const video = document.getElementById('videoRef')
-        const isPaused = video?.paused
+    const topSectionRef = useRef()
+    const [topSectionSize, setTopSectionSize] = useState({width: 0, height: 0})
+    const windowSize = useWindowSize()
 
-        isPaused
-            ? video.play()
-            : video.pause()
-    }
+    useEffect(() => {
+        setTopSectionSize({
+            width: topSectionRef.current?.clientWidth,
+            height: topSectionRef.current?.clientHeight
+        })
+    }, [topSectionRef, windowSize])
 
     return (
         <section
@@ -30,10 +33,7 @@ const TokenSection = () => {
             className={classes.tokenSection}
         >
 
-            <div
-                className={classes.topSection}
-                onClick={playPauseVideo}
-            >
+            <div className={classes.topSection} ref={topSectionRef}>
                 <div className="bg-gradient-top"/>
                 <div className="bg-gradient-bottom"/>
                 <div className={cx("bg-green-line", classes.greenLine)}/>
@@ -48,17 +48,22 @@ const TokenSection = () => {
                         </div>
                     </div>
                 </div>
-                <div
-                    className={classes.background}
-                    dangerouslySetInnerHTML={{
-                        __html: `<video
-                                    id="videoRef"
-                                    muted
-                                    autoplay
-                                    playsInline
-                                    src=${Background}
-                                 />`
-                    }}
+
+                <Video
+                    idVideo={'YfU5r7DAE_8'}
+                    className={classes.videoContainer}
+                    iframeClassName={cx("absolute-centered", topSectionSize.height > topSectionSize.width ? classes.iframeH : classes.iframeV)}
+                    iframeStyle={
+                        topSectionSize.height > topSectionSize.width
+                        ? {
+                            height: topSectionSize.height,
+                            width: topSectionSize.height * 1.89
+                        }
+                        : {
+                            height: topSectionSize.width,
+                            width: topSectionSize.width * 1.89
+                        }
+                    }
                 />
             </div>
 

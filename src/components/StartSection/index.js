@@ -2,10 +2,13 @@ import React from "react"
 import cx from 'classnames'
 import * as classes from "./startSection.module.scss"
 import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
-import Background from '../../images/backgrounds/start.mp4'
 import {sections} from "../../helpers/constants"
+import Video from "../UI/Video"
+import {useWindowSize} from "../../helpers/useWindowSize"
 
 const StartSection = () => {
+    const {width: pageWidth, height: pageHeight} = useWindowSize()
+
     return (
         <section
             id={sections.START}
@@ -21,21 +24,11 @@ const StartSection = () => {
                 </div>
             </div>
 
-            <div
-                className={classes.background}
-                dangerouslySetInnerHTML={{
-                    __html: `<video
-                                loop
-                                muted
-                                autoplay
-                                playsInline
-                                src=${Background}
-                             />`
-                }}
+            <Video
+                idVideo={'M7qbun2D0M8'}
+                className={classes.videoContainer}
+                iframeClassName={cx("absolute-centered", pageHeight > pageWidth ? classes.iframeH : classes.iframeV)}
             />
-            {/*<div className={classes.background}>
-                <iframe style={{height: '100%', width: '100%'}} src="https://youtube.com/embed/M7qbun2D0M8?autoplay=1&controls=0&showinfo=0&autohide=1"/>
-            </div>*/}
             <div className={cx("bg-green-line", classes.greenLine)}/>
             <div className="bg-gradient-bottom"/>
         </section>

@@ -70,11 +70,11 @@
 }
 
 .mechImage {
-  position: absolute;
+  position: absolute !important;
   height: 100%;
-  transition: ease-in-out 500ms;
-  transform: translateX(100vw);
-  overflow: visible;
+  transition: ease-in-out 500ms !important;
+  transform: translateX(100vw) !important;
+  overflow: visible !important;
   img {
     width: auto;
   }
@@ -82,7 +82,7 @@
 
 .selectedMech {
   transition: ease-in-out 500ms;
-  transform: translateX(0);
+  transform: translateX(0) !important;
 }
 
 .statsCard {
