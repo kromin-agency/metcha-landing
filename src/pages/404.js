@@ -1,13 +1,18 @@
 import * as React from "react"
 import Seo from "../components/Seo/seo"
 import Layout from "../layout";
+import Button from "../components/UI/Button"
+import {navigate} from "gatsby"
 
-const NotFoundPage = () => (
+const PageNotFound = () => (
   <Layout>
-    <Seo title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <Seo title="404: Not found" />
+      <div className={"flexbox-center page-404"}>
+          <h1>404</h1>
+          <p>Page not found</p>
+          <Button text={'Back home'} onClick={() => navigate('/')}/>
+      </div>
   </Layout>
 )
 
-export default NotFoundPage
+export default PageNotFound

@@ -169,3 +169,26 @@ html {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.back-to-top {
+    z-index: 9500;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.page-404 {
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+    h1 {
+        font-size: 80px;
+    }
+    p {
+        font-size: 40px;
+        margin-bottom: 32px;
+    }
+}

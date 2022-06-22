@@ -17,6 +17,7 @@ import ExperiencesSection from "../components/ExperiencesSection"
 import NftSection from "../components/NftSection"
 import PartnerSection from "../components/PartnerSection"
 import ChannelsSection from "../components/ChannelsSection"
+import BackToTop from '../images/generics/Backtotop.png'
 
 const SECTIONS = [
     {id: `#${sections.START}`, label: 'Start'},
@@ -41,6 +42,12 @@ const IndexPage = () => (
         <SocialIcons/>
         <Sidebar sections={SECTIONS}/>
         <MobileMenu sections={SECTIONS}/>
+        <img
+            src={BackToTop}
+            alt="back to top"
+            className={"back-to-top"}
+            onClick={() => window?.scrollTo(0, 0)}
+        />
 
         {/* sections */}
         <StartSection/>
