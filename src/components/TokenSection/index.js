@@ -14,6 +14,8 @@ import BattlingIcon from '../../assets/icn_battling.svg'
 import AchievingIcon from '../../assets/icn_win.svg'
 import Video from "../UI/Video"
 import {useWindowSize} from "../../helpers/useWindowSize"
+import Background from "../../images/backgrounds/token.mp4"
+import Thumbnail from "../../images/backgrounds/start_thumb.png"
 
 const TokenSection = () => {
     const topSectionRef = useRef()
@@ -49,28 +51,35 @@ const TokenSection = () => {
                     </div>
                 </div>
 
-                <Video
+                <div
+                    className={classes.background}
+                    dangerouslySetInnerHTML={{
+                        __html: `<video
+                                loop
+                                muted
+                                autoplay
+                                playsInline
+                                src=${Background}
+                                style="background: url(${Thumbnail}) center / cover no-repeat"
+                             />`
+                    }}
+                />
+                {/*<Video
                     idVideo={'YfU5r7DAE_8'}
                     className={classes.videoContainer}
-                    iframeClassName={cx("absolute-centered", topSectionSize.height > topSectionSize.width ? classes.iframeH : classes.iframeV)}
+                    iframeClassName={"absolute-centered"}
                     iframeStyle={
                         topSectionSize.height > topSectionSize.width
                         ? {
                             height: topSectionSize.height,
-                            width: topSectionSize.height * 1.89,
-                            '@media screen and(min-width: 1200px)': {
-                                width: topSectionSize.height,
-                            }
+                            width: topSectionSize.height * 1.89
                         }
                         : {
                             height: topSectionSize.width,
-                            width: topSectionSize.width * 1.89,
-                                '@media screen and(min-width: 1200px)': {
-                                    width: topSectionSize.width,
-                                }
+                            width: topSectionSize.width * 1
                         }
                     }
-                />
+                />*/}
             </div>
 
             <div className={cx("container", classes.bottomSection)}>
