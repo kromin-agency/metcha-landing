@@ -21,9 +21,9 @@ const ALIENS = 'aliens'
 const HUMANS = 'humans'
 
 const mechs = [
-    {name: PIRATES, background: PiratesBg, text: 'Plasma, electricity and magnetism are the favourite technologies for this alien race. Pirate mechas are fast and well defended thanks to their innovative shields and armors.'},
-    {name: ALIENS, background: AliensBg, text: 'Not the strongest mechas, but very prone to defence builds. Aliens mechas equip long distance weapons to destroy opponents mechas and win the Mechadium rush'},
-    {name: HUMANS, background: HumanBg, text: 'Strong, not so sleek, but efficients against every kind of obstacle pool planets offer. Highly resistant, but slow, human mechas are a good tradeoff for every situation.'}
+    {name: PIRATES, background: PiratesBg, chart: 'webchart_1a.png', text: 'Plasma, electricity and magnetism are the favourite technologies for this alien race. Pirate mechas are fast and well defended thanks to their innovative shields and armors.'},
+    {name: ALIENS, background: AliensBg, chart: 'webchart_2a.png', text: 'Not the strongest mechas, but very prone to defence builds. Aliens mechas equip long distance weapons to destroy opponents mechas and win the Mechadium rush'},
+    {name: HUMANS, background: HumanBg, chart: 'webchart_3a.png', text: 'Strong, not so sleek, but efficients against every kind of obstacle pool planets offer. Highly resistant, but slow, human mechas are a good tradeoff for every situation.'}
 ]
 
 const BiomesSection = () => {
@@ -106,6 +106,11 @@ const BiomesSection = () => {
                             <img src={BigCard} alt="Big Card"/>
                             <div className={classes.topStats}>
                                 <h5>{selectedMech.name}</h5>
+                                <Image
+                                    filename={selectedMech.chart}
+                                    alt={'Chart'}
+                                    className={classes.image}
+                                />
                             </div>
                             <p>{selectedMech.text}</p>
                         </div>

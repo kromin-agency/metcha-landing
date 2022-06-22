@@ -17,7 +17,7 @@ import ExperiencesSection from "../components/ExperiencesSection"
 import NftSection from "../components/NftSection"
 import PartnerSection from "../components/PartnerSection"
 import ChannelsSection from "../components/ChannelsSection"
-import BackToTop from '../images/generics/Backtotop.svg'
+import BackToTop from '../images/generics/Backtotop.png'
 
 const SECTIONS = [
     {id: `#${sections.START}`, label: 'Start'},
