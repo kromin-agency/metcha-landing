@@ -5,6 +5,8 @@ import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
 import {sections} from "../../helpers/constants"
 import Background from '../../images/backgrounds/start.mp4'
 import Thumbnail from '../../images/backgrounds/start_thumb.png'
+import Divider from '../../images/generics/div2.svg'
+import DividerMobile from '../../images/generics/divMobile1.svg'
 
 const StartSection = () => {
     return (
@@ -37,6 +39,16 @@ const StartSection = () => {
             />
             <div className={cx("bg-green-line", classes.greenLine)}/>
             <div className="bg-gradient-bottom"/>
+            <img
+                src={Divider}
+                alt="Divider"
+                className={cx("d-none d-md-block", classes.bottomDivider)}
+            />
+            <img
+                src={DividerMobile}
+                alt="Divider"
+                className={cx("d-block d-md-none", classes.bottomDivider)}
+            />
         </section>
     )
 }

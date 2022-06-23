@@ -8,6 +8,7 @@ import {sections} from "../../helpers/constants"
 import Background from '../../images/generics/bg-Contacts.png'
 import cx from 'classnames'
 import Button from "../UI/Button"
+import DividerMobile from '../../images/generics/divMobile1.svg'
 
 const ChannelsSection = () => {
     return (
@@ -17,6 +18,11 @@ const ChannelsSection = () => {
             style={{backgroundImage: `url(${Background})`}}
         >
             <div className="bg-gradient-top"/>
+            <img
+                src={DividerMobile}
+                alt="Divider"
+                className={cx("d-block d-md-none", classes.topDivider)}
+            />
 
             <div className="container">
                 <div className="row">
