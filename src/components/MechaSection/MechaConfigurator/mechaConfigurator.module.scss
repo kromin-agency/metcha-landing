@@ -55,6 +55,7 @@
 .buttons {
   gap: 16px;
   button {
+    position: relative;
     width: 96px;
     cursor: pointer;
     background: transparent;

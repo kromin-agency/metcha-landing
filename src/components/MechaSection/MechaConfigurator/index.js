@@ -77,24 +77,42 @@ const MechaConfigurator = () => {
             </div>
             <div className={cx("flexbox-center", classes.buttons)}>
                 <button onClick={() => onSelectConfiguration(WEAPON_1)}>
-                <Image
-                    filename={selectedConfig.name === WEAPON_1 ? "weapon1_selected.png" : "weapon1.png"}
-                    alt={"weapon 1"}
-                    draggable={false}
-                />
+                    <Image
+                        filename={"weapon1.png"}
+                        alt={"weapon 1"}
+                        draggable={false}
+                    />
+                    <Image
+                        filename={"weapon1_selected.png"}
+                        alt={"weapon 1"}
+                        draggable={false}
+                        style={{position: "absolute", inset: 0, opacity: +(selectedConfig.name === WEAPON_1), transition: "ease-in-out 300ms"}}
+                    />
                 </button>
                 <button onClick={() => onSelectConfiguration(WEAPON_2)}>
                     <Image
-                        filename={selectedConfig.name === WEAPON_2 ? "weapon2_selected.png" : "weapon2.png"}
-                        alt={"weapon 1"}
+                        filename={"weapon2.png"}
+                        alt={"weapon 2"}
                         draggable={false}
+                    />
+                    <Image
+                        filename={"weapon2_selected.png"}
+                        alt={"weapon 2"}
+                        draggable={false}
+                        style={{position: "absolute", inset: 0, opacity: +(selectedConfig.name === WEAPON_2), transition: "ease-in-out 300ms"}}
                     />
                 </button>
                 <button onClick={() => onSelectConfiguration(WEAPON_3)}>
                     <Image
-                        filename={selectedConfig.name === WEAPON_3 ? "weapon3_selected.png" : "weapon3.png"}
-                        alt={"weapon 1"}
+                        filename={"weapon3.png"}
+                        alt={"weapon 3"}
                         draggable={false}
+                    />
+                    <Image
+                        filename={"weapon3_selected.png"}
+                        alt={"weapon 3"}
+                        draggable={false}
+                        style={{position: "absolute", inset: 0, opacity: +(selectedConfig.name === WEAPON_3), transition: "ease-in-out 300ms"}}
                     />
                 </button>
             </div>
