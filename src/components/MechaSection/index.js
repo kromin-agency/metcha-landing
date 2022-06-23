@@ -37,9 +37,14 @@ const MechaSection = () => {
             </div>
 
             <img
-                src={(pageWidth > 768) ? Divider : DividerMobile}
+                src={Divider}
                 alt="Divider"
-                className={classes.bottomDivider}
+                className={cx("d-none d-md-block", classes.bottomDivider)}
+            />
+            <img
+                src={DividerMobile}
+                alt="Divider"
+                className={cx("d-block d-md-none", classes.bottomDivider)}
             />
         </section>
     )

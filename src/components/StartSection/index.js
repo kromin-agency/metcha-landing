@@ -7,8 +7,6 @@ import Background from '../../images/backgrounds/start.mp4'
 import Thumbnail from '../../images/backgrounds/start_thumb.png'
 
 const StartSection = () => {
-/*    const {width: pageWidth, height: pageHeight} = useWindowSize()*/
-
     return (
         <section
             id={sections.START}
@@ -37,11 +35,6 @@ const StartSection = () => {
                              />`
                 }}
             />
-            {/*<Video
-                idVideo={'M7qbun2D0M8'}
-                className={classes.videoContainer}
-                iframeClassName={cx("absolute-centered", pageHeight > pageWidth ? classes.iframeH : classes.iframeV)}
-            />*/}
             <div className={cx("bg-green-line", classes.greenLine)}/>
             <div className="bg-gradient-bottom"/>
         </section>

@@ -32,12 +32,12 @@ const ChannelsSection = () => {
                     </div>
                     <div className={cx("col-12 col-md-8 col-xl-auto flexbox-start", classes.actionColumn)}>
                         <h5>Join our channels</h5>
-                        <div className="flexbox-center" style={{gap: '32px'}}>
-                            <div className="flexbox-center" style={{flexDirection: 'column', gap: '56px'}}>
+                        <div className={cx("flexbox-center", classes.centralButtons)}>
+                            <div className="flexbox-center">
                                 <DiscordIcon/>
                                 <Button text={'discord'}/>
                             </div>
-                            <div className="flexbox-center" style={{flexDirection: 'column', gap: '56px'}}>
+                            <div className="flexbox-center">
                                 <TelegramIcon/>
                                 <Button text={'telegram'}/>
                             </div>

@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from "react"
+import React from "react"
 import * as classes from './tokenSection.module.scss'
 import {sections} from "../../helpers/constants"
 import BoxList from "../UI/BoxList"
@@ -12,22 +12,18 @@ import DesignIcon from '../../assets/icn_design.svg'
 import BuildingIcon from '../../assets/icn_building.svg'
 import BattlingIcon from '../../assets/icn_battling.svg'
 import AchievingIcon from '../../assets/icn_win.svg'
-import Video from "../UI/Video"
-import {useWindowSize} from "../../helpers/useWindowSize"
 import Background from "../../images/backgrounds/token.mp4"
-import Thumbnail from "../../images/backgrounds/start_thumb.png"
+import Thumbnail from "../../images/backgrounds/token_thumb.png"
 
 const TokenSection = () => {
-    const topSectionRef = useRef()
-    const [topSectionSize, setTopSectionSize] = useState({width: 0, height: 0})
-    const windowSize = useWindowSize()
 
-    useEffect(() => {
-        setTopSectionSize({
-            width: topSectionRef.current?.clientWidth,
-            height: topSectionRef.current?.clientHeight
-        })
-    }, [topSectionRef, windowSize])
+    const playBgVideo = () => {
+        const video = document.getElementById('tokenBgVideo')
+
+        video?.paused
+            ? video?.play()
+            : video?.pause()
+    }
 
     return (
         <section
@@ -35,7 +31,10 @@ const TokenSection = () => {
             className={classes.tokenSection}
         >
 
-            <div className={classes.topSection} ref={topSectionRef}>
+            <div
+                className={classes.topSection}
+                onClick={playBgVideo}
+            >
                 <div className="bg-gradient-top"/>
                 <div className="bg-gradient-bottom"/>
                 <div className={cx("bg-green-line", classes.greenLine)}/>
@@ -55,7 +54,7 @@ const TokenSection = () => {
                     className={classes.background}
                     dangerouslySetInnerHTML={{
                         __html: `<video
-                                loop
+                                id="tokenBgVideo"
                                 muted
                                 autoplay
                                 playsInline
@@ -64,22 +63,6 @@ const TokenSection = () => {
                              />`
                     }}
                 />
-                {/*<Video
-                    idVideo={'YfU5r7DAE_8'}
-                    className={classes.videoContainer}
-                    iframeClassName={"absolute-centered"}
-                    iframeStyle={
-                        topSectionSize.height > topSectionSize.width
-                        ? {
-                            height: topSectionSize.height,
-                            width: topSectionSize.height * 1.89
-                        }
-                        : {
-                            height: topSectionSize.width,
-                            width: topSectionSize.width * 1
-                        }
-                    }
-                />*/}
             </div>
 
             <div className={cx("container", classes.bottomSection)}>
