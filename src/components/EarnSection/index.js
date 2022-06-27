@@ -7,7 +7,7 @@ import DaoIcon from '../../assets/icn_dao.svg'
 import ManagementIcon from '../../assets/icn_management.svg'
 import CreationIcon from '../../assets/icn_design.svg'
 import EarnCard from "../UI/EarnCard"
-import Divider from '../../images/generics/div2.svg'
+import Divider from '../../images/generics/div3.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
 const EarnSection = () => {

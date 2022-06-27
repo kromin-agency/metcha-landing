@@ -2,7 +2,7 @@ import React from "react"
 import * as classes from './partnerSection.module.scss'
 import {sections} from "../../helpers/constants"
 import cx from 'classnames'
-import Divider from '../../images/generics/div2.svg'
+import Divider from '../../images/generics/div3.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
 const PartnerSection = () => {

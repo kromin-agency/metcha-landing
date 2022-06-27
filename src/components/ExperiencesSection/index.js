@@ -7,7 +7,7 @@ import BattleIcon from '../../assets/icn_battling.svg'
 import NftIcon from '../../assets/icn_nft.svg'
 import GalaxyIcon from '../../assets/icn_galaxy.svg'
 import TopDivider from '../../images/generics/div1.svg'
-import Divider from '../../images/generics/div2.svg'
+import Divider from '../../images/generics/div3.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
 const ExperiencesSection = () => {

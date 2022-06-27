@@ -53,7 +53,11 @@ const ChannelsSection = () => {
                         <h5>Subscribe to our newsletter</h5>
                         <EmailIcon/>
                         <div className={cx("flexbox-center", classes.submit)}>
-                            <input type="text" placeholder="Email address" className={classes.inputText}/>
+                            <input
+                                type="text"
+                                placeholder="Email address"
+                                className={classes.inputText}
+                            />
                             <Button text={'Submit'}/>
                         </div>
                     </div>

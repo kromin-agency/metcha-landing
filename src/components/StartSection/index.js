@@ -5,7 +5,7 @@ import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
 import {sections} from "../../helpers/constants"
 import Background from '../../images/backgrounds/start.mp4'
 import Thumbnail from '../../images/backgrounds/start_thumb.png'
-import Divider from '../../images/generics/div2.svg'
+import Divider from '../../images/generics/div3.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
 const StartSection = () => {
