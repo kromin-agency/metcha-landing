@@ -40,7 +40,7 @@ const NftSection = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row" style={{marginTop: 40}}>
                             <div className="col-12 col-sm-6">
                                 <div className={cx("flexbox-center", classes.listItem)}>
                                     <HelmetIcon/>

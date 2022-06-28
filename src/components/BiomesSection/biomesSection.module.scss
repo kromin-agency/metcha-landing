@@ -124,12 +124,13 @@
     height: 24px;
     transform: rotate(90deg);
     opacity: 0.2;
+    cursor: pointer;
     transition: ease-in-out 200ms;
   }
 }
 
 .selectedHex {
-  opacity: 0.5 !important;
+  opacity: 0.8 !important;
   transition: ease-in-out 200ms;
 }
 

@@ -71,9 +71,18 @@ const MechaConfigurator = () => {
                 </div>
             </div>
             <div className={classes.points}>
-                <Hexagon className={selectedConfig.name === WEAPON_1 ? classes.selectedHex : ""}/>
-                <Hexagon className={selectedConfig.name === WEAPON_2 ? classes.selectedHex : ""}/>
-                <Hexagon className={selectedConfig.name === WEAPON_3 ? classes.selectedHex : ""}/>
+                <Hexagon
+                    className={selectedConfig.name === WEAPON_1 ? classes.selectedHex : ""}
+                    onClick={() => onSelectConfiguration(WEAPON_1)}
+                />
+                <Hexagon
+                    className={selectedConfig.name === WEAPON_2 ? classes.selectedHex : ""}
+                    onClick={() => onSelectConfiguration(WEAPON_2)}
+                />
+                <Hexagon
+                    className={selectedConfig.name === WEAPON_3 ? classes.selectedHex : ""}
+                    onClick={() => onSelectConfiguration(WEAPON_3)}
+                />
             </div>
             <div className={cx("flexbox-center", classes.buttons)}>
                 <button onClick={() => onSelectConfiguration(WEAPON_1)}>

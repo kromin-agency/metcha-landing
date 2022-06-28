@@ -5,11 +5,8 @@ import cx from 'classnames'
 import MechaConfigurator from "./MechaConfigurator"
 import Divider from '../../images/generics/div2.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
-import {useWindowSize} from "../../helpers/useWindowSize"
 
 const MechaSection = () => {
-    const {width: pageWidth} = useWindowSize()
-
     return (
         <section
             id={sections.MECHA}

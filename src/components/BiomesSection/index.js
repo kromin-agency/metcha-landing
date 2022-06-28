@@ -136,9 +136,18 @@ const BiomesSection = () => {
                 <div className="row flexbox-center">
                     <div className="col-auto">
                         <div className={classes.points}>
-                            <Hexagon className={selectedMech.name === PIRATES ? classes.selectedHex : ""}/>
-                            <Hexagon className={selectedMech.name === ALIENS ? classes.selectedHex : ""}/>
-                            <Hexagon className={selectedMech.name === HUMANS ? classes.selectedHex : ""}/>
+                            <Hexagon
+                                className={selectedMech.name === PIRATES ? classes.selectedHex : ""}
+                                onClick={() => setSelectedMech(mechs[0])}
+                            />
+                            <Hexagon
+                                className={selectedMech.name === ALIENS ? classes.selectedHex : ""}
+                                onClick={() => setSelectedMech(mechs[1])}
+                            />
+                            <Hexagon
+                                className={selectedMech.name === HUMANS ? classes.selectedHex : ""}
+                                onClick={() => setSelectedMech(mechs[2])}
+                            />
                         </div>
                     </div>
                 </div>
