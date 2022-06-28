@@ -12,7 +12,10 @@ const MobileMenu = ({sections}) => {
 
     return (
         <>
-            <MenuIcon isOpen={isMenuOpen} onClick={toggleMenu}/>
+            <MenuIcon
+                isOpen={isMenuOpen}
+                onClick={toggleMenu}
+            />
 
             <div
                 className={cx(
@@ -21,7 +24,10 @@ const MobileMenu = ({sections}) => {
                 )}
             >
                 <div className={classes.head}>
-                    <img src={Logo} alt={'Mechaversus Logo'}/>
+                    <img
+                        src={Logo}
+                        alt="Mechaversus Logo"
+                    />
                 </div>
                 <nav>
                     {
