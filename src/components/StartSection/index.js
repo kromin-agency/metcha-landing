@@ -1,7 +1,7 @@
 import React from "react"
 import cx from 'classnames'
 import * as classes from "./startSection.module.scss"
-import Logo from "../../images/logo-variants/LogoIcon_Mechaversus.svg"
+import Logo from "../../images/logo-variants/LogoIcon_mechaversus.svg"
 import {sections} from "../../helpers/constants"
 import Background from '../../images/backgrounds/start.mp4'
 import Thumbnail from '../../images/backgrounds/start_thumb.png'
