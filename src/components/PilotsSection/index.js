@@ -27,6 +27,7 @@ const PilotsSection = () => {
                             muted
                             autoPlay
                             playsInline
+                            loop
                             src={HelmetVideo}
                             className={classes.helmetVideo}
                             onClick={({target: video}) => video.play()}
