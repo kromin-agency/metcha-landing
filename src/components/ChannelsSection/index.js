@@ -45,7 +45,7 @@ const ChannelsSection = () => {
                             </div>
                             <div className="flexbox-center">
                                 <TelegramIcon/>
-                                <Button text={'telegram'}/>
+                                <Button text={'telegram'} onClick={() => window.open("https://t.me/MechaversusAnn")}/>
                             </div>
                         </div>
                     </div>

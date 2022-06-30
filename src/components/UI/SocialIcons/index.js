@@ -8,7 +8,7 @@ import cx from 'classnames'
 const SocialIcons = () => {
     return (
         <div className={cx("flexbox-start", classes.socialIcons)}>
-            <a href="https://www.kromin.it" target="_blank" rel="noreferrer">
+            <a href="https://t.me/Mechaversus" target="_blank" rel="noreferrer">
                 <TelegramIcon/>
             </a>
             <a href="mailto:info@mechaversus.co">
