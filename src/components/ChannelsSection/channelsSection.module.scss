@@ -57,6 +57,7 @@
 
 .centralButtons {
   gap: 32px;
+  align-items: flex-start;
   > div {
     flex-direction: column;
     gap: 24px;

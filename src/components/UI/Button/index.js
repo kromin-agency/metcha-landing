@@ -4,7 +4,7 @@ import cx from 'classnames'
 import PropTypes from "prop-types"
 
 const Button = ({
-    type= "submit",
+    type= "button",
     text,
     onClick,
     disabled,

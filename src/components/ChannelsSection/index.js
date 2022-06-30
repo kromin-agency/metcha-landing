@@ -54,7 +54,11 @@ const ChannelsSection = () => {
                     <div className={cx("col-12 col-md-4 col-xl-auto flexbox-start", classes.actionColumn)}>
                         <h5>Whitepaper</h5>
                         <WhitepaperIcon/>
-                        <Button text={'download'}/>
+                        <Button
+                            text={'download'}
+                            //todo: put the whitepaper link below (window.open("https://linktest@test.test"))
+                            onClick={() => window.open("")}
+                        />
                     </div>
                     <div className={cx("col-12 col-md-8 col-xl-auto flexbox-start", classes.actionColumn)}>
                         <h5>Join our channels</h5>
@@ -65,7 +69,16 @@ const ChannelsSection = () => {
                             </div>
                             <div className="flexbox-center">
                                 <TelegramIcon/>
-                                <Button text={'telegram'} onClick={() => window.open("https://t.me/MechaversusAnn")}/>
+                                <div className="flexbox-center" style={{flexDirection: "column", gap: 24}}>
+                                    <Button
+                                        text={'telegram chat'}
+                                        onClick={() => window.open("https://t.me/Mechaversus")}
+                                    />
+                                    <Button
+                                        text={'telegram channel'}
+                                        onClick={() => window.open("https://t.me/MechaversusAnn")}
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
