@@ -76,6 +76,16 @@
   }
 }
 
+.inputWrapper {
+  position: relative;
+  small {
+    position: absolute;
+    bottom: -24px;
+    left: 4px;
+    color: #FF113A;
+  }
+}
+
 .inputText {
   width: 280px;
   height: 40px;

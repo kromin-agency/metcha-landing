@@ -12,7 +12,7 @@
   padding: 0;
   cursor: pointer;
   transition: ease-in-out 300ms;
-  &:hover {
+  &:hover:not(:disabled) {
     background: #FFFFFFB3;
     .squares {
       inset: -8px;
@@ -36,6 +36,9 @@
         }
       }
     }
+  }
+  &:disabled {
+    opacity: 0.5;
   }
   @media (min-width: 768px) {
     min-width: 190px;
