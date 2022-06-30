@@ -1,7 +1,3 @@
-<svg id="icn_mail" xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
-  <g id="Rettangolo_2044" data-name="Rettangolo 2044" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
-    <rect width="80" height="80" stroke="none"/>
-    <rect x="0.5" y="0.5" width="79" height="79" fill="none"/>
-  </g>
-  <path id="Icon_material-mail" data-name="Icon material-mail" d="M45.683,6H7.743a4.736,4.736,0,0,0-4.719,4.743L3,39.2A4.756,4.756,0,0,0,7.743,43.94h37.94A4.756,4.756,0,0,0,50.426,39.2V10.743A4.756,4.756,0,0,0,45.683,6Zm0,9.485L26.713,27.341,7.743,15.485V10.743L26.713,22.6l18.97-11.856Z" transform="translate(13 14.8)" fill="#fff"/>
+<svg width="80" height="80" viewBox="0 0 60 60">
+  <path d="M45.683,6H7.743a4.736,4.736,0,0,0-4.719,4.743L3,39.2A4.756,4.756,0,0,0,7.743,43.94h37.94A4.756,4.756,0,0,0,50.426,39.2V10.743A4.756,4.756,0,0,0,45.683,6Zm0,9.485L26.713,27.341,7.743,15.485V10.743L26.713,22.6l18.97-11.856Z" transform="translate(2 6)" fill="#fff"/>
 </svg>

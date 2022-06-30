@@ -99,39 +99,8 @@ const ChannelsSection = () => {
                         </div>
                     </div>
                 </div>
-                {/*<div className={cx("row", classes.boxes)}>
-                    <div className={cx("col-12 col-md-4 col-xl-auto flexbox-start", classes.actionColumn)}>
-                        <h5>Whitepaper</h5>
-                        <WhitepaperIcon/>
-                        <Button
-                            text={'download'}
-                            //todo: put the whitepaper link below (window.open("https://linktest@test.test"))
-                            onClick={() => window.open("")}
-                        />
-                    </div>
-                    <div className={cx("col-12 col-md-8 col-xl flexbox-start", classes.actionColumn)}>
-                        <h5>Join our channels</h5>
-                        <div className={cx("flexbox-center", classes.centralButtons)}>
-                            <div className="flexbox-center">
-                                <DiscordIcon/>
-                                <Button text={'discord'}/>
-                            </div>
-                            <div className="flexbox-center">
-                                <TelegramIcon/>
-                                <div className="flexbox-center" style={{flexDirection: "column", gap: 24}}>
-                                    <Button
-                                        text={'telegram chat'}
-                                        onClick={() => window.open("https://t.me/Mechaversus")}
-                                    />
-                                    <Button
-                                        text={'telegram channel'}
-                                        onClick={() => window.open("https://t.me/MechaversusAnn")}
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <form
+
+                    {/*<form
                         onSubmit={onSubmit}
                         className={cx("col-12 col-xl flexbox-start", classes.actionColumn)}
                     >
@@ -157,8 +126,8 @@ const ChannelsSection = () => {
                                 disabled={!!formError || !emailInput}
                             />
                         </div>
-                    </form>
-                </div>*/}
+                    </form>*/}
+
             </div>
         </div>
     )
