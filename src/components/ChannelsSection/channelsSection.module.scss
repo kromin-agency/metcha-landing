@@ -9,66 +9,55 @@
   }
 }
 
-.boxes {
-  gap: 80px;
-  @media (min-width: 768px) {
+.channels {
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  @media (min-width: 992px) {
+    flex-direction: row;
+    align-items: start;
     gap: 0
   }
 }
 
-.actionColumn {
-  flex-direction: column;
-  gap: 24px;
-  padding: 0 16px;
-  border-right: none;
-  h5 {
-    font-family: "Orbitron", serif;
-    font-size: 22px;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
-  svg {
-    width: 100px;
-    height: 100px;
-  }
-  @media (min-width: 768px) {
-    gap: 56px;
-    border-right: 1px solid #FFFFFF59;
-    &:last-child {
-      border: none;
-      margin-top: 64px;
-    }
-  }
-  @media (min-width: 992px) {
-    &:nth-child(2) {
-      border-right: none;
-    }
-  }
-  @media (min-width: 1200px) {
-    margin-top: 0;
-    &:nth-child(2) {
+.channelBox {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  &:not(:last-child) {
+    border: none;
+    @media (min-width: 992px) {
       border-right: 1px solid #FFFFFF59;
     }
-    &:last-child {
-      margin-top: 0;
-    }
+  }
+  h5 {
+    font-family: "Orbitron", serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 56px;
   }
 }
 
-.centralButtons {
-  gap: 32px;
-  align-items: flex-start;
-  > div {
-    flex-direction: column;
-    gap: 24px;
+.socialsRow {
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  svg {
+    margin-bottom: 32px;
   }
   @media (min-width: 768px) {
-    > div {
-      gap: 56px;
-    }
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
   }
 }
 
+.buttons {
+  flex-direction: column;
+  gap: 24px;
+}
+
+/*
 .submit {
   gap: 32px;
   flex-direction: column;
@@ -111,6 +100,7 @@
     width: 100%;
   }
 }
+*/
 
 .topDivider {
   position: absolute;
