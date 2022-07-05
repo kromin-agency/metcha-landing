@@ -14,9 +14,9 @@
 }
 
 .list {
-  flex-direction: column;
+/*  flex-direction: column;
   align-items: start;
-  gap: 24px;
+  gap: 24px;*/
   margin-bottom: 40px;
   @media (min-width: 992px) {
     margin-bottom: 0;
@@ -24,19 +24,33 @@
 }
 
 .listItem {
-  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
   h5 {
     font-family: "Orbitron", serif;
-    font-size: 48px;
+    font-size: 32px;
     color: #34DB21;
   }
   svg {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
   }
   span {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
+  }
+  @media (min-width: 576px) {
+    margin-bottom: 0;
+    h5 {
+      font-size: 48px;
+    }
+    svg {
+      width: 80px;
+      height: 80px;
+    }
+    span {
+      font-size: 26px;
+    }
   }
 }
 

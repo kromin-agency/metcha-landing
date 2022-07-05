@@ -34,7 +34,7 @@ const ExperiencesSection = () => {
                 </div>
                 <div className="row">
                     <div className="col-12 col-lg-6">
-                        <div className={cx("flexbox-start", classes.list)}>
+                        <div className={cx("container", classes.list)}>
                             <ListItem number={1} icon={<CustomizeIcon/>} text={'Customization of your mecha'}/>
                             <ListItem number={2} icon={<BattleIcon/>} text={'Mecha battles'}/>
                             <ListItem number={3} icon={<NftIcon/>} text={'NFT marketplace'}/>
@@ -76,10 +76,18 @@ export default ExperiencesSection
 
 function ListItem({number, icon, text}) {
     return (
-        <div className={cx("flexbox-start", classes.listItem)}>
-            <h5>{number}</h5>
-            {icon}
-            <span>{text}</span>
+        <div className={cx("row", classes.listItem)}>
+            <div className="col-2 flexbox-center">
+                <h5>{number}</h5>
+            </div>
+            <div className="col-auto flexbox-center">
+                {icon}
+            </div>
+            <div className="col flexbox-start">
+                <span>
+                    {text}
+                </span>
+            </div>
         </div>
     )
 }

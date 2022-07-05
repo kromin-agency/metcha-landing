@@ -41,30 +41,30 @@ const NftSection = () => {
                             </div>
                         </div>
                         <div className="row" style={{marginTop: 40}}>
-                            <div className="col-12 col-sm-6">
-                                <div className={cx("flexbox-center", classes.listItem)}>
+                            <div className="col-6 offset-3 offset-sm-0">
+                                <div className={cx("flexbox-start", classes.listItem)}>
                                     <HelmetIcon/>
                                     <span>Helmets</span>
                                 </div>
-                                <div className={cx("flexbox-center", classes.listItem)}>
+                                <div className={cx("flexbox-start", classes.listItem)}>
                                     <ArenasIcon/>
                                     <span>Arenas</span>
                                 </div>
-                                <div className={cx("flexbox-center", classes.listItem)}>
+                                <div className={cx("flexbox-start", classes.listItem)}>
                                     <NexusIcon/>
                                     <span>Nexus</span>
                                 </div>
                             </div>
-                            <div className="col-12 col-sm-6">
-                                <div className={cx("flexbox-center", classes.listItem)}>
+                            <div className="col-6 offset-3 offset-sm-0">
+                                <div className={cx("flexbox-start", classes.listItem)}>
                                     <TrapsIcon/>
                                     <span>Traps</span>
                                 </div>
-                                <div className={cx("flexbox-center", classes.listItem)}>
+                                <div className={cx("flexbox-start", classes.listItem)}>
                                     <MechsIcon/>
                                     <span>Mechs</span>
                                 </div>
-                                <div className={cx("flexbox-center", classes.listItem)}>
+                                <div className={cx("flexbox-start", classes.listItem)}>
                                     <LandsIcon/>
                                     <span>Lands</span>
                                 </div>
