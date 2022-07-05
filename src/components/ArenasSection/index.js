@@ -31,7 +31,7 @@ const ArenasSection = () => {
                                     <h5>
                                         Deploy
                                         <br/>
-                                        your merch
+                                        your mechs
                                     </h5>
                                 </div>
                             </div>

@@ -18,11 +18,9 @@ import Thumbnail from "../../images/backgrounds/token_thumb.png"
 const TokenSection = () => {
 
     const playBgVideo = () => {
-        const video = document.getElementById('tokenBgVideo')
+        const video = document.getElementById("tokenBgVideo")
 
-        video?.paused
-            ? video?.play()
-            : video?.pause()
+        if(video?.paused) video?.play()
     }
 
     return (
@@ -30,7 +28,6 @@ const TokenSection = () => {
             id={sections.TOKEN}
             className={classes.tokenSection}
         >
-
             <div
                 className={classes.topSection}
                 onClick={playBgVideo}
@@ -76,14 +73,14 @@ const TokenSection = () => {
                                     icon: <TradingIcon/>,
                                     title: 'Trading',
                                     list: <>
-                                        <li><strong>Buy and sell</strong> Helmets, mecha modules, lands and arenas in the NFT Marketplace</li>
+                                        <li><strong>Buy and sell</strong> Helmets, mecha modules, lands and arenas in the NFT Marketplace.</li>
                                     </>
                                 },
                                 {
                                     icon: <CollectingIcon/>,
                                     title: 'Collecting',
                                     list: <>
-                                        <li><strong>Seek</strong> for collectible helmets</li>
+                                        <li><strong>Seek</strong> for collectible Helmets.</li>
                                     </>
                                 }
                             ]}
@@ -97,15 +94,15 @@ const TokenSection = () => {
                                     icon: <BettingIcon/>,
                                     title: 'Betting',
                                     list: <>
-                                        <li><strong>Reforge Helmets</strong> in forges and pursuit</li>
-                                        <li><strong>Reforge nexus</strong> and <strong>mecha modules</strong> in</li>
+                                        <li><strong>Reforge Helmets</strong> in forges and pursuit rare genes.</li>
+                                        <li><strong>Reforge nexus</strong> and <strong>mecha modules</strong> in factories.</li>
                                     </>
                                 },
                                 {
                                     icon: <BusinessIcon/>,
                                     title: 'Business',
                                     list: <>
-                                        <li><strong>Rent</strong> of all types of industries, lands, mechas or other properties</li>
+                                        <li><strong>Rent</strong> all types of industries, lands, mechas or other properties.</li>
                                     </>
                                 }
                             ]}
@@ -120,10 +117,10 @@ const TokenSection = () => {
                                     icon: <ManagementIcon/>,
                                     title: 'Management',
                                     list: <>
-                                        <li><strong>Buy industries, manage</strong> and <strong>mine</strong></li>
+                                        <li><strong>Buy industries, manage</strong> and <strong>mine lands</strong>.</li>
                                         <li>
                                             Create the community and <strong>outline</strong> together the
-                                            <strong>future</strong> of the <strong>Mechaversus world</strong>
+                                            <strong>future</strong> of the <strong>Mechaversus</strong>.
                                         </li>
                                     </>
                                 },
@@ -131,7 +128,7 @@ const TokenSection = () => {
                                     icon: <DesignIcon/>,
                                     title: 'Design',
                                     list: <>
-                                        <li><strong>Design</strong>, craft and sell <strong>new NFTs</strong></li>
+                                        <li><strong>Design</strong>, craft and sell <strong>new NFTs</strong>.</li>
                                     </>
                                 },
                                 {
@@ -140,9 +137,9 @@ const TokenSection = () => {
                                     list: <>
                                         <li>
                                             <strong>Customise</strong> your <strong>mecha</strong> in the workshop and
-                                            create your "deck" of mechas
+                                            create your "deck" of mechas.
                                         </li>
-                                        <li>Build hangars to repair broken mecha</li>
+                                        <li>Build hangars to repair broken mecha modules.</li>
                                     </>
                                 }
                             ]}
@@ -155,18 +152,17 @@ const TokenSection = () => {
                             items={[
                                 {
                                     icon: <BattlingIcon/>,
-                                    title: 'Betting',
+                                    title: 'Battling',
                                     list: <>
-                                        <li><strong>Reforge Helmets</strong> in forges and pursuit</li>
-                                        <li><strong>Reforge nexus</strong> and <strong>mecha modules</strong> in</li>
+                                        <li><strong>Battle in the arenas</strong>.</li>
                                     </>
                                 },
                                 {
                                     icon: <AchievingIcon/>,
                                     title: 'Achieving',
                                     list: <>
-                                        <li><strong>Achieve</strong> daily and weekly <strong>rewards</strong></li>
-                                        <li><strong>Improve</strong> your Rank and climb the leaderboard</li>
+                                        <li><strong>Achieve</strong> daily and weekly <strong>rewards</strong>.</li>
+                                        <li><strong>Improve</strong> your Rank and climb the leaderboard.</li>
                                     </>
                                 }
                             ]}

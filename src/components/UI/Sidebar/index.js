@@ -14,7 +14,10 @@ const Sidebar = ({sections}) => {
                     sections.map((section, index) => (
                         <a
                             href={section.id}
-                            className={cx("flexbox-start", classes.link)}
+                            className={cx(
+                                "flexbox-start",
+                                classes.link
+                            )}
                             key={index}
                         >
                             <MenuItemIcon/>
