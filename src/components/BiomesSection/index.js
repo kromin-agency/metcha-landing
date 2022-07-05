@@ -101,7 +101,7 @@ const BiomesSection = () => {
                                 }
                                 alt="Line"
                                 className={classes.line}
-                                style={{top: selectedMech.name === PIRATES ? 120 : 220}}
+                                style={{top: selectedMech.name === PIRATES ? 100 : 140}}
                             />
                             <img src={BigCard} alt="Big Card"/>
                             <div className={classes.topStats}>
