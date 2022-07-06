@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import React, {useEffect, useRef, useState} from "react"
 import * as classes from './channelsSection.module.scss'
 import WhitepaperIcon from '../../assets/icn_whitepaper.svg'
 import FacebookIcon from '../../assets/icn_facebook.svg'
@@ -10,7 +10,21 @@ import cx from 'classnames'
 import Button from "../UI/Button"
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
-const ChannelsSection = () => {
+const ChannelsSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.WHITEPAPERS_CHANNELS)
+        }
+    }, [sectionRef, scrollFromTop])
+
 /*    const [emailInput, setEmailInput] = useState("")
     const [formError, setFormError] = useState(null)
 
@@ -36,6 +50,7 @@ const ChannelsSection = () => {
             id={sections.WHITEPAPERS_CHANNELS}
             className={cx("section-big-padding", classes.channelsSection)}
             style={{backgroundImage: `url(${Background})`}}
+            ref={sectionRef}
         >
             <div className="bg-gradient-top"/>
             <img

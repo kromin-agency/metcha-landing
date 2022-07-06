@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import * as classes from './tokenSection.module.scss'
 import {sections} from "../../helpers/constants"
 import BoxList from "../UI/BoxList"
@@ -15,7 +15,20 @@ import AchievingIcon from '../../assets/icn_win.svg'
 import Background from "../../images/backgrounds/token.mp4"
 import Thumbnail from "../../images/backgrounds/token_thumb.png"
 
-const TokenSection = () => {
+const TokenSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.TOKEN)
+        }
+    }, [sectionRef, scrollFromTop])
 
     const playBgVideo = () => {
         const video = document.getElementById("tokenBgVideo")
@@ -27,6 +40,7 @@ const TokenSection = () => {
         <section
             id={sections.TOKEN}
             className={classes.tokenSection}
+            ref={sectionRef}
         >
             <div
                 className={classes.topSection}

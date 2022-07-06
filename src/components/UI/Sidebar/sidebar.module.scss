@@ -18,6 +18,27 @@
   }
 }
 
+.activeLink {
+  gap: 16px;
+  width: max-content;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 500;
+  svg {
+    fill: transparent;
+    stroke: #FFF;
+    width: 16px;
+    transition: ease-in-out 200ms;
+    transform: rotate(90deg) scale(1.5);
+    stroke-width: 4px;
+  }
+  span {
+    display: block;
+    transition: ease-in-out 200ms;
+  }
+}
+
 .link {
   gap: 16px;
   width: max-content;

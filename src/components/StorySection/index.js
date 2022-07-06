@@ -1,15 +1,30 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import * as classes from './storySection.module.scss'
 import cx from 'classnames'
 import Image from "../UI/Image"
 import {sections} from "../../helpers/constants"
 import Divider from '../../images/generics/div1.svg'
 
-const StorySection = () => {
+const StorySection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.STORY)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <section
             id={sections.STORY}
             className={cx("section-small-padding", classes.storySection)}
+            ref={sectionRef}
         >
             <img
                 src={Divider}

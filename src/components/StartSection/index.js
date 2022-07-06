@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useRef, useEffect} from "react"
 import cx from 'classnames'
 import * as classes from "./startSection.module.scss"
 import Logo from "../../images/logo-variants/LogoIcon_mechaversus.svg"
@@ -8,11 +8,26 @@ import Thumbnail from '../../images/backgrounds/start_thumb.png'
 import Divider from '../../images/generics/div3.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
-const StartSection = () => {
+const StartSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.START)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <section
             id={sections.START}
             className={classes.startSection}
+            ref={sectionRef}
         >
             <div className="container">
                 <div className="row">

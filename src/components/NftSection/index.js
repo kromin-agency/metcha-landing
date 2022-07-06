@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import * as classes from './nftsection.module.scss'
 import cx from 'classnames'
 import HelmetIcon from '../../assets/icn_helmet.svg'
@@ -10,11 +10,26 @@ import LandsIcon from '../../assets/icn_Lands.svg'
 import {sections} from "../../helpers/constants"
 import Image from "../UI/Image"
 
-const NftSection = () => {
+const NftSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.NFT_MARKETPLACE)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <div
             id={sections.NFT_MARKETPLACE}
             className={classes.nftSection}
+            ref={sectionRef}
         >
             <div className="container">
                 <div className="row">

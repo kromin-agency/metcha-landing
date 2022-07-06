@@ -33,7 +33,7 @@ const MobileMenu = ({sections}) => {
                     {
                         sections.map((section, index) => (
                             <a
-                                href={section.id}
+                                href={`#${section.id}`}
                                 key={index}
                                 onClick={toggleMenu}
                             >

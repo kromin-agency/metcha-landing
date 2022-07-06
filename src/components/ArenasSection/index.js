@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import * as classes from './arenaSection.module.scss'
 import {sections} from "../../helpers/constants"
 import Background from '../../images/generics/ArenasBg.png'
@@ -8,12 +8,27 @@ import DeployIcon from '../../assets/icn_deploy.svg'
 import MovesIcon from '../../assets/icn_makemoves.svg'
 import DefeatIcon from '../../assets/icn_defeat.svg'
 
-const ArenasSection = () => {
+const ArenasSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.ARENAS)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <section
             id={sections.ARENAS}
             className={classes.arenaSection}
             style={{backgroundImage: `url(${Background})`}}
+            ref={sectionRef}
         >
             <div className="bg-gradient-top"/>
             <div className="bg-gradient-bottom"/>

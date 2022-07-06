@@ -8,8 +8,11 @@
 }
 
 .topSection {
-  padding-top: 135px;
+  padding-top: 24px;
   position: relative;
+  @media (min-width: 768px) {
+    padding-top: 135px;
+  }
 }
 
 .bottomSection {

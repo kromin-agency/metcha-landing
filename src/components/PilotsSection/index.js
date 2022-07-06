@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import * as classes from './pilotsSection.module.scss'
 import cx from 'classnames'
 import HelmetVideo from '../../images/generics/220610 - Helmet Animation light.mp4'
@@ -8,11 +8,26 @@ import PirateIcon from '../../assets/icn_pirate.svg'
 import {sections} from "../../helpers/constants"
 
 
-const PilotsSection = () => {
+const PilotsSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.PILOTS)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <section
             id={sections.PILOTS}
             className={classes.pilotsSection}
+            ref={sectionRef}
         >
             <div className="container">
                 <div className="row">

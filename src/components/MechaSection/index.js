@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import {sections} from "../../helpers/constants"
 import * as classes from './mechaSection.module.scss'
 import cx from 'classnames'
@@ -6,11 +6,26 @@ import MechaConfigurator from "./MechaConfigurator"
 import Divider from '../../images/generics/div2.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
-const MechaSection = () => {
+const MechaSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.MECHA)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <section
             id={sections.MECHA}
             className={classes.mechaSection}
+            ref={sectionRef}
         >
             <div className={cx("whiteDivider", classes.whiteDivider)}/>
 

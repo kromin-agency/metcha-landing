@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import * as classes from './earnSection.module.scss'
 import {sections} from "../../helpers/constants"
 import cx from 'classnames'
@@ -10,11 +10,26 @@ import EarnCard from "../UI/EarnCard"
 import Divider from '../../images/generics/div3.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
-const EarnSection = () => {
+const EarnSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.EARN_PLAYING_MECHANICS)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <section
             id={sections.EARN_PLAYING_MECHANICS}
             className={classes.earnSection}
+            ref={sectionRef}
         >
             <img
                 src={Divider}

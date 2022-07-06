@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React, {useEffect, useRef, useState} from "react"
 import * as classes from './biomesSection.module.scss'
 import cx from 'classnames'
 import {sections} from "../../helpers/constants"
@@ -26,14 +26,28 @@ const mechs = [
     {name: HUMANS, background: HumanBg, chart: 'webchart_3a.png', text: 'Strong, not so sleek, but efficients against every kind of obstacle pool planets offer. Highly resistant, but slow, human mechas are a good tradeoff for every situation.'}
 ]
 
-const BiomesSection = () => {
+const BiomesSection = ({scrollFromTop, setCurrentSectionCb}) => {
     const [selectedMech, setSelectedMech] = useState(mechs[0])
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.BIOMES)
+        }
+    }, [sectionRef, scrollFromTop])
 
     return (
         <section
             id={sections.BIOMES}
             className={cx("section-small-padding", classes.biomesSection)}
             style={{backgroundImage: `url(${selectedMech.background})`}}
+            ref={sectionRef}
         >
             <div className="bg-gradient-top"/>
             <div className="bg-gradient-bottom"/>

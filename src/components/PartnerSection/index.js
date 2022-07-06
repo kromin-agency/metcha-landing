@@ -1,15 +1,30 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import * as classes from './partnerSection.module.scss'
 import {sections} from "../../helpers/constants"
 import cx from 'classnames'
 import Divider from '../../images/generics/div3.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
-const PartnerSection = () => {
+const PartnerSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.PARTNERS)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <div
             id={sections.PARTNERS}
             className={cx("section-big-padding", classes.partnerSection)}
+            ref={sectionRef}
         >
             <img
                 src={Divider}

@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 import * as classes from './experiencesSection.module.scss'
 import cx from 'classnames'
 import {sections} from "../../helpers/constants"
@@ -10,11 +10,26 @@ import TopDivider from '../../images/generics/div1.svg'
 import Divider from '../../images/generics/div3.svg'
 import DividerMobile from '../../images/generics/divMobile1.svg'
 
-const ExperiencesSection = () => {
+const ExperiencesSection = ({scrollFromTop, setCurrentSectionCb}) => {
+    const sectionRef = useRef()
+
+    useEffect(() => {
+        const sectionOffset = sectionRef.current?.offsetTop
+        const sectionHeight = sectionRef.current?.scrollHeight
+
+        if(
+            sectionOffset <= scrollFromTop
+            && sectionOffset + sectionHeight >= scrollFromTop
+        ) {
+            setCurrentSectionCb(sections.GAME_EXPERIENCES)
+        }
+    }, [sectionRef, scrollFromTop])
+
     return (
         <div
             id={sections.GAME_EXPERIENCES}
             className={classes.experiencesSection}
+            ref={sectionRef}
         >
             <div className={cx("flexbox-end", classes.topDivider)}>
                 <img
