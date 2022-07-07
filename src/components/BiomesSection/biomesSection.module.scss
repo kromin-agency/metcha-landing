@@ -3,7 +3,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 220px;
   h4 {
     margin-bottom: 48px;
   }
@@ -137,4 +136,22 @@
   left: 0;
   transform: translateX(-100%);
   width: 97px !important;
+}
+
+.whiteLineDivider {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    position: static;
+    margin: 0 40px 40px 20%;
+  }
+}
+
+.topDivider {
+  display: none;
+  margin-right: 60px;
+  margin-bottom: 8px;
+  @media (min-width: 768px) {
+    display: flex;
+  }
 }

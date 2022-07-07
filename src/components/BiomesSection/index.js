@@ -15,6 +15,7 @@ import Hexagon from '../../assets/icn_hexagon.svg'
 import Line1 from '../../images/generics/Line1.svg'
 import Line2 from '../../images/generics/Line2.svg'
 import Line3 from '../../images/generics/Line3.svg'
+import TopDivider from "../../images/generics/div1.svg"
 
 const PIRATES = 'pirates'
 const ALIENS = 'aliens'
@@ -51,6 +52,15 @@ const BiomesSection = ({scrollFromTop, setCurrentSectionCb}) => {
         >
             <div className="bg-gradient-top"/>
             <div className="bg-gradient-bottom"/>
+
+            <div className={cx("flexbox-end", classes.topDivider)}>
+                <img
+                    src={TopDivider}
+                    alt="Divider"
+                />
+            </div>
+
+            <div className={cx("whiteDivider", classes.whiteLineDivider)}/>
 
             <div className="container">
                 <div className="row">
