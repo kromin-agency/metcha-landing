@@ -6,7 +6,8 @@
   bottom: 0;
   left: 40px;
   nav {
-    width: max-content;
+    width: 0;
+    overflow: visible;
     height: 500px;
     display: flex;
     justify-content: space-between;
@@ -19,6 +20,8 @@
 }
 
 .activeLink {
+  max-width: 160px;
+  height: 32px;
   gap: 16px;
   width: max-content;
   color: #FFF;
@@ -40,6 +43,8 @@
 }
 
 .link {
+  max-width: 160px;
+  height: 32px;
   gap: 16px;
   width: max-content;
   color: #FFF;

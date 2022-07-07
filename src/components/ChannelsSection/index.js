@@ -65,23 +65,23 @@ const ChannelsSection = ({scrollFromTop, setCurrentSectionCb}) => {
                         <h3>Are you ready?</h3>
                     </div>
                 </div>
-                <div className={cx("row", classes.channels)}>
-                    <div className={cx("col-auto", classes.channelBox)}>
+                <div className={cx("row justify-content-center", classes.channels)}>
+                    <div className={cx("col-12 col-lg-auto", classes.channelBox)}>
                         <h5>Whitepaper</h5>
                         <div className={cx("flexbox-start", classes.socialsRow)}>
                             <div>
                                 <WhitepaperIcon/>
                                 <div  className={cx("flexbox-start", classes.buttons)}>
                                     <Button
-                                        text={'download'}
+                                        text="download"
                                         //todo: put the whitepaper link below (window.open("https://linktest@test.test"))
-                                        onClick={() => window.open("")}
+                                        onClick={() => window.open("", "_blank")}
                                     />
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className={cx("col", classes.channelBox)}>
+                    <div className={cx("col-12 col-lg-auto", classes.channelBox)}>
                         <h5>Join our channels</h5>
                         <div className={cx("flexbox-center", classes.socialsRow)}>
                             <div>
@@ -98,17 +98,25 @@ const ChannelsSection = ({scrollFromTop, setCurrentSectionCb}) => {
                                     onClick={() => window.open("https://www.facebook.com/Mechaversus")}
                                 />
                             </div>
-                            <div>
-                                <TelegramIcon/>
-                                <div className={cx("flexbox-start", classes.buttons)}>
-                                    <Button
-                                        text={'telegram chat'}
-                                        onClick={() => window.open("https://t.me/Mechaversus")}
-                                    />
-                                    <Button
-                                        text={'telegram channel'}
-                                        onClick={() => window.open("https://t.me/MechaversusAnn")}
-                                    />
+                            <div
+                                className={cx(
+                                    "flexbox-center",
+                                    classes.socialsRow,
+                                    classes.telegram
+                                )}
+                            >
+                                <div>
+                                    <TelegramIcon/>
+                                    <div className={cx("flexbox-start", classes.buttons)}>
+                                        <Button
+                                            text={'telegram chat'}
+                                            onClick={() => window.open("https://t.me/Mechaversus")}
+                                        />
+                                        <Button
+                                            text={'telegram channel'}
+                                            onClick={() => window.open("https://t.me/MechaversusAnn")}
+                                        />
+                                    </div>
                                 </div>
                             </div>
                         </div>

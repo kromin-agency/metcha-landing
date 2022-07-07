@@ -21,7 +21,9 @@ const Sidebar = ({sections, currentSection}) => {
                             )}
                             key={index}
                         >
-                            <MenuItemIcon/>
+                            <div>
+                                <MenuItemIcon/>
+                            </div>
                             <span>
                                 {section.label}
                             </span>

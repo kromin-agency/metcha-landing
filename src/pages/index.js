@@ -29,7 +29,7 @@ const SECTIONS = [
     {id: sections.PILOTS, label: 'Pilots'},
     {id: sections.MECHA, label: 'Mecha'},
     {id: sections.ARENAS, label: 'Arenas'},
-    {id: sections.EARN_PLAYING_MECHANICS, label: 'Earn by playing mechanics'},
+    {id: sections.EARN_PLAYING_MECHANICS, label: 'Earn'},
     {id: sections.GAME_EXPERIENCES, label: 'Game experiences'},
     {id: sections.NFT_MARKETPLACE, label: 'NFT marketplace'},
     {id: sections.PARTNERS, label: 'Partners'},
